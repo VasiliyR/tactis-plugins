@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tactis Ads: измерение и метрики"
+  short_description: "Цели, конверсии и достоверность измерения"
+  default_prompt: "Используй $tactis-measurement-analysis, чтобы проверить мои конверсии и объяснить, какие показатели подходят для решения."

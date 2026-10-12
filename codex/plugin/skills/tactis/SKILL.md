@@ -1,12 +1,12 @@
 ---
 name: tactis
 description: >-
-  Разбери результат рекламы в Tactis, выбери следующий шаг, подготовь точные тексты или поддержанное изменение и продолжи сохранённую работу по клиенту. Используй для вопросов «почему вырос CPA», «что улучшить первым», «подготовь поисковую рекламу», «сделай недельный обзор», проверки измерения и связанных задач маркетолога. Подключённые источники и реальные права определяют доступный результат; графики и аналитические таблицы ведёт tactis-visual-analysis.
+  Начни или продолжи работу по клиенту в Tactis: восстанови контекст, выбери приоритет среди задач маркетинга, подготовь программу роста или согласуй работу по нескольким проектам. Используй для «с чего начать», «продолжи работу по клиенту» и смешанных задач; для конкретного результата выбери профильный навык Tactis.
 metadata:
   version: tactis-method-0.4
 ---
 
-# Tactis — продукты для маркетинговой работы
+# Tactis — работа по клиенту и выбор следующего шага
 
 Present ordinary analysis in chat. For advertising charts, comparisons and analytical tables, use [Tactis visual analysis](../tactis-visual-analysis/SKILL.md). Create separate reports or exports only when the user requests them; recording Work and evidence does not require generating a document.
 
@@ -16,17 +16,25 @@ Tactis connects the external agent's marketing work to authorized client data, s
 
 Use a short route when it answers the question. Open the matching product procedure when entering its substantive work, and its supporting references only for that stage. A product name does not establish a source, tool, permission or completed external action. Query actual capabilities and operation schemas before constructing a change payload. Give the useful supported part when a prerequisite is missing, preserving the exact material and next step.
 
-| Ordinary request | Short route |
+| Client-wide request | Short route |
 | --- | --- |
-| New client / «С чего начать?» / are these events meaningful? | [Onboarding and measurement check](references/onboarding.md): recover existing choices, check the actual source/event/coverage, deliver and save the first useful result. |
-| «Почему вырос CPA», impressions disappeared, irrelevant SEARCH queries or NETWORK placements | [Ten symptom routes](references/optimization-recipes.md): select the relevant evidence and supported next result; a symptom does not authorize an automatic write. |
-| Prepare or launch SEARCH from an offer | [Campaign launch](references/campaign-launch.md): complete material → permitted PAUSED graph/readback → separate moderation and finite launch choices → actual observation. |
-| Audit / daily, weekly or monthly review / report for a decision | [Marketing review](references/marketing-review.md): addressed checklist, one cadence, recipient's decision and exact saved material; a separate report only when requested. |
+| New client / «С чего начать?» | [Onboarding](references/onboarding.md): recover existing choices and sources, deliver and save the first useful result. A new client does not require a full audit. |
 | Several clients / positioning or offer | [Portfolio and offer](references/portfolio-offer.md): authorized per-client scopes or a grounded offer hypothesis and first material; no invented aggregate reader or market claim. |
-| Advertising got worse: what should we check and do first? / «Результат рекламы ухудшился» | Follow [performance diagnosis](references/performance-diagnosis.md): compare covered windows, identify the main known loss, inspect the relevant evidence, and save up to three priorities with one useful next step. |
-| How is advertising doing? | In the resolved project/account, read exact-window metrics with `project_id` and the **Daygrain** `publication_id` through [foundation reads](references/foundation-reads.md). Metrics include campaign names; configuration status/settings require their own relevant readers. Inspect coverage and only the receipts needed by the question. |
 | Continue saved work | Read the relevant full head and exact material through [durable continuation](references/durable-continuation.md). Known Work uses `get_work_session(project_id, work_session_id)`; older material is discovered through `get_work_session(project_id, collection="work_sessions", ...)`. |
-| Prepare useful material | Read the selected Work and exact retained landing spans, then author the requested text or recommendation. Enter [Creative](references/creative-workflow.md) or the relevant product procedure for a full package. Read action capabilities and current before-state when preparing a provider change; a text request does not imply a full audit, capture, execution or separate report. |
+| Choose a marketing priority or growth programme across tasks | [Growth](references/growth-workflow.md): select the supported constraint, a feasible programme and first material; enter the relevant subject procedure only for that stage. |
+| Return regularly to agreed work | [Automation](references/automation-workflow.md): retain the instruction and useful due result; actual scheduling depends on the host. An unverified schedule is not an active recurring assignment. |
+
+For a focused request, use the matching entry below directly. Each entry shares the same client context, tools and memory; switching does not require another onboarding, a separate agent or loading every skill. Preserve the user's explicit task and existing applicable choices. In mixed work, read the specialist only when its substantive result is needed.
+
+| Requested result | Focused skill |
+| --- | --- |
+| Create or launch a supported campaign from an offer | [Campaign launch](../tactis-campaign-launch/SKILL.md) |
+| Audit existing advertising, explain rising CPA or choose an optimization | [Ads audit](../tactis-ads-audit/SKILL.md) |
+| Analyze metrics, select a meaningful goal or check conversion measurement | [Measurement analysis](../tactis-measurement-analysis/SKILL.md) |
+| Review one landing page and prepare a useful conversion edit | [Landing review](../tactis-landing-review/SKILL.md) |
+| Prepare advertising copy and exact grounded variants | [Ad copy](../tactis-ad-copy/SKILL.md) |
+| Create a requested separate client report | [Client report](../tactis-client-report/SKILL.md) |
+| Show analytical charts or tables | [Visual analysis](../tactis-visual-analysis/SKILL.md) |
 
 For several already known, independent, small pinned references, `read_evidence_bundle` can combine the eight supported analysis/dossier/Daygrain/landing readers. It does not accept configuration, metrics, Work, operations, CRM or Lifecycle readers; see [foundation reads](references/foundation-reads.md). A successful bundle does not make partial source data complete.
 

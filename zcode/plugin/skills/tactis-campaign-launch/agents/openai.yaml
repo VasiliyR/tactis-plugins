@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tactis Ads: создание кампаний"
+  short_description: "Готовая кампания, модерация и запуск показов"
+  default_prompt: "Используй $tactis-campaign-launch, чтобы подготовить рекламную кампанию из моего предложения и довести её до выбранного этапа."

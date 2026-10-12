@@ -77,7 +77,7 @@ Treat the update as `installed_pending_activation` when the native listing shows
 In the fresh session verify all of the following:
 
 - The native listing has the expected source/ref, scope, enabled `tactis@tactis-ads` and published package version.
-- Active `release.json` identifies the published host/version/package_digest, and both Tactis skills are visible.
+- Active `release.json` identifies the published host/version/package_digest, and every skill declared in the installed `methodology.json.skills` is visible.
 - Tactis `get_plugin_update_status.package_update` is current and its installed identity equals the published package. Method compatibility is acceptable too. Missing headers or an old live MCP connection are unresolved, even if native disk state is new.
 - Existing OAuth works, Tactis `list_projects` succeeds, and `get_project_brief` reads the chosen accessible project. Resolve ambiguous projects with the user; do not grant new access or modify advertising to verify installation.
 
@@ -93,4 +93,4 @@ For an update, obtain an explicit choice for this exact native bundle action. Us
 
 Read the installed Harness's native help and current profile. Use supported `plugin_manager` action `install_bundle` when actually available in Creator mode, or `dsh plugin --profile <current-profile> add <absolute-tactis-dsh.tgz>` when its CLI supports that action. The install guide records current pinned adapter/proxy versions; Node.js 22+, npx and a profile with skills/MCP are required. This preview is an executable OAuth adapter, so the action needs its own consent and host-native permissions. Do not invent a replacement updater, create another profile or bypass an unsupported bundle action. If the action must be completed by the user, report `requires_user_action`.
 
-Use supported hot reload or restart the same profile, then verify in a fresh session: active bundle version and host/digest marker, both Tactis skills, current matching package status, existing OAuth, Tactis projects and selected project brief. Full installed Harness E2E is not yet established by the published metadata. A downloaded TGZ, hash match or native install exit alone is not completion; report complete only when the actual fresh-profile evidence establishes all checks. No unattended Harness update automation is promised.
+Use supported hot reload or restart the same profile, then verify in a fresh session: active bundle version and host/digest marker, every skill declared in `methodology.json.skills`, current matching package status, existing OAuth, Tactis projects and selected project brief. Full installed Harness E2E is not yet established by the published metadata. A downloaded TGZ, hash match or native install exit alone is not completion; report complete only when the actual fresh-profile evidence establishes all checks. No unattended Harness update automation is promised.
