@@ -8,6 +8,8 @@ metadata:
 
 # Tactis — аналитика и проверка измерения
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](../tactis/references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 Ответь на конкретный вопрос о показателях или достоверности измерения. Результат — сопоставимые числа с объяснением либо точная проверка, которая позволит использовать выбранное событие для решения. Проверка данных не требует рекламного изменения, полного аудита или отчёта.
 
 Перед первым использованием подключённых источников прочитай общий [session entry](../tactis/references/session-entry.md); восстанови выбранные проект/аккаунт, бизнес-определение результата, ограничения и нужную Work. Повторно не выбирай цель и не собирай бриф, когда они уже известны. [Onboarding measurement checklist](../tactis/references/onboarding.md#measurement-checklist) задаёт подробный маршрут проверки, а [foundation reads](../tactis/references/foundation-reads.md) — реальные источники и страницы.

@@ -1,5 +1,7 @@
 # Offer to a supported SEARCH campaign
 
+Read [the implemented platform route](platform-workflow.md#4-campaign-preparation-launch-and-return) for the corresponding exact tools and retained artifact/effect boundaries.
+
 Use for «Подготовь/запусти поисковую рекламу этого предложения». Resume at the actual stage: material, PAUSED creation, moderation, finite launch or observation. Do not repeat completed preparation or already applicable exact choices. [Shared gates](invariants.md) govern each external action; [current actions](current-actions.md) supplies exact proposal mechanics.
 
 | Stage | Named tools / source | Useful result and gate |

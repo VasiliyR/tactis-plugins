@@ -1,6 +1,6 @@
 # SEO: native search observations and the next page decision
 
-Use after a saved page/brief/material, or for “Что получилось из поиска и что делаем дальше?”. Resume the exact work via [SEO workflow](seo-workflow.md) and [durable continuation](durable-continuation.md). Prefer native observations from the already authorized selected Metrika counter. Current Direct campaign metrics and all-entry Conversion observations cannot supply an assumed organic series.
+Use after a saved page/brief/material, or for “Что получилось из поиска и что делаем дальше?”. Resume the exact work via [SEO workflow](seo-workflow.md) and [durable continuation](durable-continuation.md). For verified-site indexing, problems and query visibility use [Webmaster capture](platform-workflow.md#10-landing-product-feeds-and-webmaster); for search-source visits use the already authorized selected Metrika counter. They answer different questions. Current Direct campaign metrics and all-entry Conversion observations cannot supply an assumed organic series.
 
 ## Read the already connected source
 
@@ -12,7 +12,7 @@ The fixed mode measures provider-reported search-source entry visits with last a
 
 Save the actual typed `page_observation` foundation through supported Work schemas with its exact project/account/publication locator/fingerprint. Keep the page/public material locator, compatible observations, decision and pending condition. Verify exact Work readback and resume with the same receipt. A generic locator in prose alone is not native connector acceptance. If tools or typed wire are absent in the installed package, say integration is unavailable; do not fabricate a tool response or foundation. Existing source permission still applies to get/replay and continuation; revoked access is not bypassed by retained bytes.
 
-When the counter is available, do not ask the user to export a report. If access/source is genuinely unavailable, explain the actual missing condition and continue an available editorial result. An already supplied report may be interpreted as the attributed fallback below; it does not silently become authenticated evidence. No new Webmaster connection, credential scope, provider write or CMS publication follows from this procedure.
+When the counter is available, do not ask the user to export a report. If access/source is genuinely unavailable, explain the actual missing condition and continue an available editorial result. An already supplied report may be interpreted as the attributed fallback below; it does not silently become authenticated evidence. Webmaster can be connected through its separate secure opt-in setup and read through the platform workflow; this Metrika capture does not establish that connection or a CMS/provider write.
 
 ## Fallback: interpret an existing supplied report
 

@@ -8,6 +8,8 @@ metadata:
 
 # Tactis — работа по клиенту и выбор следующего шага
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 Present ordinary analysis in chat. For advertising charts, comparisons and analytical tables, use [Tactis visual analysis](../tactis-visual-analysis/SKILL.md). Create separate reports or exports only when the user requests them; recording Work and evidence does not require generating a document.
 
 Use the user's selected project and current server capabilities. The user's request takes precedence over methodological preferences. Server permissions, source versions and provider constraints still govern execution.
@@ -22,6 +24,7 @@ Use a short route when it answers the question. Open the matching product proced
 | Several clients / positioning or offer | [Portfolio and offer](references/portfolio-offer.md): authorized per-client scopes or a grounded offer hypothesis and first material; no invented aggregate reader or market claim. |
 | Continue saved work | Read the relevant full head and exact material through [durable continuation](references/durable-continuation.md). Known Work uses `get_work_session(project_id, work_session_id)`; older material is discovered through `get_work_session(project_id, collection="work_sessions", ...)`. |
 | Choose a marketing priority or growth programme across tasks | [Growth](references/growth-workflow.md): select the supported constraint, a feasible programme and first material; enter the relevant subject procedure only for that stage. |
+| Files, galleries, cross-channel imports/media plans, CRM/offline, finite monitoring, audiences or feeds/Webmaster | [Ten platform scenarios](references/platform-workflow.md): actual tools, exact versions, secure setup and effect boundaries. |
 | Return regularly to agreed work | [Automation](references/automation-workflow.md): retain the instruction and useful due result; actual scheduling depends on the host. An unverified schedule is not an active recurring assignment. |
 
 For a focused request, use the matching entry below directly. Each entry shares the same client context, tools and memory; switching does not require another onboarding, a separate agent or loading every skill. Preserve the user's explicit task and existing applicable choices. In mixed work, read the specialist only when its substantive result is needed.

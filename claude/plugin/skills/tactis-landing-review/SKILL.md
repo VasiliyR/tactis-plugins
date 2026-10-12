@@ -8,6 +8,8 @@ metadata:
 
 # Tactis — анализ посадочной страницы
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](../tactis/references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 Доведи запрос до применимой правки выбранной страницы: точное место, полный текст «было → стало», основание и проверка после внесения. Начни с нужного этапа сохранённой работы. Не запускай полный рекламный аудит для вопроса о странице.
 
 При первом обращении к подключённым данным используй [общий вход Tactis](../tactis/references/session-entry.md). Сохрани выбранные проект, аккаунт, предложение и действие посетителя; повторно бриф не собирай. Если сервер недоступен, можно разобрать присланный текст или материал, явно отделив его от прочитанной текущей страницы. Без содержания страницы попроси только нужный URL или фрагмент; не выдумывай старый текст.

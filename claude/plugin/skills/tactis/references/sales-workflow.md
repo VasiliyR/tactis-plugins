@@ -1,5 +1,7 @@
 # Sales: обращения до оплаченной продажи
 
+Read [the implemented platform route](platform-workflow.md#7-crm-calltracking-and-offline-conversions) for the corresponding exact tools and retained artifact/effect boundaries.
+
 Use this procedure for the linked Sales cycle: inquiry quality, processing gaps, one useful assignment, its execution report, paid outcomes and return. Start with “Где обращения теряются до продажи и что сделать первым?” or resume the client's existing check. The connected-source release reads current stages and CRM payment evidence automatically when its actual tools are installed; history, response SLA and unsupported quality definitions remain assisted/unknown. Human-confirmed CRM aggregates remain a supported partial source. Author interpretations externally; current status/payment observations do not prove causes.
 
 ## Read the minimum useful evidence

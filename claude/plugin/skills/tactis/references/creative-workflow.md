@@ -1,6 +1,6 @@
 ﻿# Creative: brief, concepts, text package and feedback
 
-Use for an offer-to-material request, a client correction or a return to a previous creative package. Deliver a short brief, concepts for up to two described audiences, chosen exact texts, supported handoff and the next useful review. Reuse the completed brief instead of starting intake again. R1 is text: the current simple Unified/RESPONSIVE_AD format uses title, text and URL, without a second title or binary asset. The external agent authors and recommends; the user chooses. Actual tool schemas and account capabilities govern application. See [one connected package example](creative-package-example.md).
+Use for an offer-to-material request, a client correction or a return to a previous creative package. Deliver a short brief, concepts for up to two described audiences, chosen exact texts, supported handoff and the next useful review. Reuse the completed brief instead of starting intake again. The provider-specific native copy path is text: the current simple Unified/RESPONSIVE_AD format uses title, text and URL, without a second title or binary asset. The external agent authors and recommends; the user chooses. Actual tool schemas and account capabilities govern application. See [one connected package example](creative-package-example.md).
 
 ## Build the brief and choose concepts
 
@@ -57,7 +57,7 @@ Keep unavailable fields explicitly absent; a saved plan is not an Application. U
 
 For «Покажи выбранный текст и где он использован», the authenticated returning chat reads current continuation, exact candidate/result Work, plan and Application, then the current scoped ad when needed. Present the final copy, evidence, recorded choice and target; distinguish historical PAUSED readback from current provider state. Do not reconstruct text from a truncated preview, infer a second placement, or reuse a revoked private scope. A changed offer/landing calls for a targeted recheck before reuse, not automatic redispatch.
 
-Images/video, DAM and unrestricted provider/CMS publication are outside this path. Host image generation is not universally available; an external visual or production task is not a publishable Ads asset. Later observations require compatible source/window/goal and coverage; absent numbers are unknown. Campaign totals do not prove ad-level attribution or causal benefit of the chosen copy.
+Real images and files are saved and versioned through [the material library](platform-workflow.md#1-universal-creative-library-and-real-files), with galleries, private downloads and ZIP hand-offs. Host generation depends on exposed capabilities; an original saved image does not prove that the selected provider format can place it. Use the actual operations schema for provider image delivery; unrestricted provider/CMS publication is not implied. Later observations require compatible source/window/goal and coverage; absent numbers are unknown. Campaign totals do not prove ad-level attribution or causal benefit of the chosen copy.
 
 
 ## Correct and review the package
@@ -70,7 +70,7 @@ On daily corrections, weekly return or changed offer/source, restore the package
 
 ## Cross-product handoff in the same chat
 
-**X1, Audience/offer → Creative → Ads:** read the exact incoming Audience Work/offer source and attributed selection. Carry project/account, audience need, inclusion/exclusion meaning and unknowns, offer/landing, confirmed tone and any existing group locator. Do not repeat a filled brief, infer group targeting from a persona, or report Audience R1-A selection as attached targeting. Concepts/copy can be completed while attach remains unsupported.
+**X1, Audience/offer → Creative → Ads:** read the exact incoming Audience Work/offer source and attributed selection. Carry project/account, audience need, inclusion/exclusion meaning and unknowns, offer/landing, confirmed tone and any existing group locator. Do not repeat a filled brief, infer group targeting from a persona, or report a prepared/processed audience as attached Direct targeting. Concepts/copy can be completed before separately authorized provider targeting; [audience activation](platform-workflow.md#9-real-audience-segments-and-activation) saves and uploads exact real segments.
 
 Pass to Ads the saved brief/material/summary Work IDs, chosen concept/local variant label, exact final title/text/URL, retained landing proof locators and known campaign/group/control identity with its evidence/status. Distinguish permission to use the text from permission to add the ad; Ads reads the current catalog/versions/authority and determines supported application. Missing group/control/write yields a ready material plus named application prerequisite, not a fabricated plan/Application or completed upstream task. On return read exact material and any real downstream plan/Application; do not re-create a finished brief or dispatch again because the chat changed. A subsequent Experiments handoff receives actual effect/intent refs if available, otherwise the proposed hypothesis and unresolved prerequisite, not an outcome.
 

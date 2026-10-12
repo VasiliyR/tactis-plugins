@@ -7,6 +7,8 @@ metadata:
 
 # Tactis — графики и таблицы
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](../tactis/references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 The chat is the working surface. Answer the user's analytical question with the smallest useful combination of explanation, chart and table. A chart is optional for a simple fact. Expand details as the user investigates; do not turn every reply into a dashboard. Match the user's language.
 
 Create a separate report, PDF, presentation or export only when the user requests that deliverable (including an explicit standing request). A request to analyze or show a graph is not a request to call `create_analysis_report`. Saving evidence, Work, decisions and measurements is independent of producing documents. This skill never grants permission to change advertising.

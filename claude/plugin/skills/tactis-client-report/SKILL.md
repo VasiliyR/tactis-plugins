@@ -8,6 +8,8 @@ metadata:
 
 # Tactis — отчёт для решения клиента
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](../tactis/references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 Produce the requested client deliverable from actual saved evidence and Work. Use the shared [session entry](../tactis/references/session-entry.md) once for connected scope, then reuse the selected project/account and known recipient, period and purpose. Follow [shared invariants](../tactis/references/invariants.md) for access, source integrity and saving. An ordinary status question does not require generating a document.
 
 ## Shape the report around the decision
@@ -32,7 +34,7 @@ Save and read back the substantive Work before creating its document, using [dur
 
 ## Publish or revoke a saved HTML version
 
-An explicit request to publish authorizes the requested link, not message delivery or a public replacement of the source document. Read [publication mechanics](../tactis/references/mvp-workflow.md#publish-a-saved-html-report) and inspect the actual tools. Use the exact existing `report_id` from `get_client_report`; this path cannot upload an arbitrary HTML page, expose PDF, render live numbers or accept comments.
+An explicit request to publish authorizes the requested link, not message delivery or a public replacement of the source document. Read [publication mechanics](../tactis/references/mvp-workflow.md#publish-a-saved-html-report) and inspect the actual tools. Use the exact existing `report_id` from `get_client_report`; the legacy report-link path selects a fixed rendered report. For authored HTML, image/file galleries, selected live revisions and exact-version comments use the universal material route in [platform workflow](../tactis/references/platform-workflow.md#2-client-html-image-galleries-and-exact-version-feedback).
 
 Reuse the user's selected access policy: `fixed_10_days` expires at the returned timestamp, while `while_subscription_active` follows the organization's current subscription and can become inactive. If the intended duration is unclear and changes the requested result, resolve that choice before publication. Use an optional short `title` from the actual report/request, without inventing dates; it names the link and does not rewrite HTML. Keep one `command_key` for the exact `project_id`, `report_id`, policy and title. Call `publish_client_report`, then `get_report_publication(project_id, publication_id)` to verify its actual version, status, `public_url`, policy and `expires_at`. Return the real link and its access condition; only an `active` readback establishes availability. A lost response is recovered with the same command key/payload, never a fresh publication.
 
@@ -42,6 +44,6 @@ For an existing link, use `list_report_publications(project_id, limit, offset)` 
 
 If a saved report basis is missing, read or prepare only the evidence needed for this subject and period through [foundation reads](../tactis/references/foundation-reads.md). Partial Analysis can support a report with its explicit known part and limitations; missing access or a required experiment outcome cannot be hidden by narrative. Deliver the useful supported review and name the exact remaining prerequisite when a document cannot be created.
 
-A CRM-only or portfolio summary without the required supported Analysis is a chat deliverable, not a fabricated report. User-supplied numbers can support an attributed provisional review; they are not Tactis owner publications. For an ordinary overview, use [visual analysis](../tactis-visual-analysis/SKILL.md) in chat when a chart/table helps.
+A CRM-only or portfolio summary without supported Analysis can be delivered in chat or as a grounded authored HTML material through the universal material route; do not fabricate an Analysis report basis. User-supplied numbers can support an attributed provisional review; they are not Tactis owner publications. For an ordinary overview, use [visual analysis](../tactis-visual-analysis/SKILL.md) in chat when a chart/table helps.
 
 Return the requested private artifact or verified public link with its actual version, covered period, concise result and applicable access condition. Document creation and link publication do not send the report to the client. Use only delivery mechanisms actually present in the current catalog and separately authorized by the user's request. Preserve the report locator and next check in saved Work so a new chat can retrieve the same version.

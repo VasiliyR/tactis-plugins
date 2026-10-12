@@ -1,5 +1,7 @@
 # SEO: pages, materials and search follow-up
 
+Read [the implemented platform route](platform-workflow.md#10-landing-product-feeds-and-webmaster) for the corresponding exact tools and retained artifact/effect boundaries.
+
 Use for “Какие страницы и темы развивать для органического спроса?” Deliver up to three grounded topic priorities and one usable editorial brief for one service/product direction. The external agent chooses and writes; existing owners retain evidence and Work. Use current tool schemas, [foundation reads](foundation-reads.md) for available facts and [durable continuation](durable-continuation.md) for resume/save/readback. An Ads audit is not a prerequisite. The product connects page priorities, a usable brief/material, editorial review/public version and [native search observations](seo-observations.md) from an already authorized selected counter when installed tools support organic_search. Resume at the relevant stage rather than restarting the brief.
 
 ## Toolbox by stage

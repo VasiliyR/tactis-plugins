@@ -8,6 +8,8 @@ metadata:
 
 # Tactis — аудит и улучшение рекламы
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](../tactis/references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 Дай ответ на вопрос пользователя в чате: что изменилось, где находится известная потеря, какое объяснение поддерживают данные и что сделать первым. Для полного аудита используй [адресный checklist](../tactis/references/marketing-review.md); для конкретного ухудшения — [performance diagnosis](../tactis/references/performance-diagnosis.md), для отдельного симптома — подходящий [symptom route](../tactis/references/optimization-recipes.md). Один симптом не требует полного аудита.
 
 Перед первым использованием подключённых данных прочитай общий [session entry](../tactis/references/session-entry.md). Восстанови выбранные проект/аккаунт, цель, ограничения и нужную Work; используй уже разрешённый контекст без повторного брифа. Источники, права и выполненные действия определяются текущими инструментами, а не названием навыка.

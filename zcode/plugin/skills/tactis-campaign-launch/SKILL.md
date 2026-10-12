@@ -8,6 +8,8 @@ metadata:
 
 # Tactis — создание и запуск кампаний
 
+For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](../tactis/references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
+
 Deliver the requested campaign stage, starting from the client's offer or existing saved draft. Reuse the shared [session entry](../tactis/references/session-entry.md) for the authorized project/account, confirmed context and relevant Work. A client already resolved in this chat does not need another brief. Follow [shared invariants](../tactis/references/invariants.md) for rights, exact choices, command identity and readback.
 
 ## Build the useful campaign material

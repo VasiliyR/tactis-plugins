@@ -1,6 +1,6 @@
-# Audience R1-A: understand, choose and return
+# Audience: understand, version, activate and return
 
-Use [foundation reads](foundation-reads.md) and [durable continuation](durable-continuation.md). Audience turns existing behavioural conditions into a saved choice for an offer. R1-A supports understanding sources, comparing choices, checking inclusions/exclusions, preparing a handoff and revisiting it. **Audience attach/suspend is unavailable.** Do not propose a fabricated operation or substitute mobile `segment_adjustment`/`work_task` for it.
+Use [foundation reads](foundation-reads.md) and [durable continuation](durable-continuation.md). Audience turns existing behavioural conditions into a saved choice for an offer. Behavioural-condition analysis supports understanding sources, comparing choices and checking inclusions/exclusions. [Real segment versions and activation](platform-workflow.md#9-real-audience-segments-and-activation) add private CSV/Lifecycle selection and exact Yandex Audience create/replace with explicit consent/readback. Segment activation does not itself attach Direct targeting or suspend ads; use a separate supported provider operation.
 
 ## Toolbox by stage
 
@@ -10,7 +10,7 @@ Use [foundation reads](foundation-reads.md) and [durable continuation](durable-c
 | Explain lists and actual consumers | `get_current_configuration`, `get_configuration_manifest`, `get_configuration_retargeting_lists`, `get_configuration_campaign` | Pin one configuration and page the needed families; a list name does not define behaviour |
 | Check the selected goal meaning | `get_audience_sources` with its exact linked counter/goal scope | Definition/availability is distinct from business result and measurement eligibility |
 | Revisit comparable group observations | `get_campaign_dossier`, `get_dossier_family` | Group evidence does not prove audience CPA or random allocation |
-| Preserve choice and hand to Creative/Ads | `record_work_session` → exact `get_work_session` | Full chosen rules/windows/offer, limits and next step; [shared gates](invariants.md). Attach/suspend remains unsupported |
+| Preserve choice and hand to Creative/Ads | `record_work_session` → exact `get_work_session` | Full chosen rules/windows/offer, limits and next step; [shared gates](invariants.md). Actual segment activation uses the separate exact command/digest route; Direct targeting needs its own supported operation |
 
 ## Start from the client's existing decision
 
@@ -48,7 +48,7 @@ For an interest-without-selected-conversion preparation, require:
 - A separate existing Unified NETWORK group with an appropriate existing ad/offer/landing page and no alternative audience conditions, keywords/autotargeting or offer-retargeting widening the intended reach. In networks, other criteria may combine through OR; a NONE inside one condition does not exclude conversions from all group impressions.
 - A known campaign/group state. ON under stopped parent delivery is not serving; no delivery/budget change follows from this choice.
 
-When comparing reuse in several selected groups, map group → list → Rules/offer and state the examined scope. A shared list may also be used in bid modifiers and other campaigns. Do not call it a complete impact map or propose a safe global list edit without all relevant consumers. R1-A updates the saved decision, not the provider list. An unavailable unused list does not prove wasted budget.
+When comparing reuse in several selected groups, map group → list → Rules/offer and state the examined scope. A shared list may also be used in bid modifiers and other campaigns. Do not call it a complete impact map or propose a safe global list edit without all relevant consumers. This analysis updates the saved decision. An actual segment replacement requires the separate prepared activation and current exact provider fingerprint. An unavailable unused list does not prove wasted budget.
 
 A useful result can be: chosen preparation candidate, exact reason it cannot be applied, an existing material/brief for the offer, and the smallest next prerequisite. Do not fabricate an available replacement list/group or claim a connection. Absence of an applicable action does not prevent an independent Creative text or another supported Ads task from proceeding in its own scope.
 
@@ -68,6 +68,6 @@ Input already received: exact project/account, the existing offer/landing/materi
 
 Output for Creative is a saved audience package: selected list ID and exact known source IDs/meaning; positive/NONE rules and independent windows; offer/CTA and supplied material text or exact material locator; known limitations, selection rationale and what remains unconfirmed. Include the actual Work ID once saved, with original evidence locators. Creative can prepare texts for this choice; the handoff does not create an audience action.
 
-Output for Ads adds selected campaign/group IDs if proven, scope/compatibility/coverage and the clear state **prepared; Audience attach/suspend unsupported**. Ads reads the chosen Creative text and existing rights/catalog; it may prepare an independent supported draft/plan. It must not pretend the audience was attached or transform the preparation into delivery consent. Experiments receives the saved intent/criteria and actual application only if one exists.
+Output for Ads adds selected campaign/group IDs if proven, scope/compatibility/coverage and the clear state **prepared audience choice; segment/provider targeting state separately verified**. Ads reads the chosen Creative text and existing rights/catalog; it may prepare an independent supported draft/plan. It must not pretend the audience was attached or transform the preparation into delivery consent. Experiments receives the saved intent/criteria and actual application only if one exists.
 
 Missing transition: if goal meaning or group is unknown, send the known offer and limited audience hypothesis to Creative with that limitation; Ads receives the exact prerequisite, without fake plan/Application. Return in a new chat reads the original Work/material and newer real evidence, resumes the pending part and preserves independent completed material. Never invent stored IDs, effect, maturity or task completion.

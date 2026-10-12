@@ -1,6 +1,8 @@
 # Recurring client assignments through an external host
 
-Use for substantial-change control, a requested weekly material, or return to a saved decision for one project/account. Deliver the useful result now when possible, retain it, and manage the supported native instruction through its lifecycle. Reuse the current tools, [foundation reads](foundation-reads.md) and [durable continuation](durable-continuation.md); this procedure adds no scheduler, storage schema or advertising authority. The external agent interprets facts. Independent Tactis workers collect data and numerical observations; they do not start a model turn.
+Read [the implemented platform route](platform-workflow.md#8-finite-monitoring-and-explicit-one-shot-pause) for the corresponding exact tools and retained artifact/effect boundaries.
+
+Use for substantial-change control, a requested weekly material, or return to a saved decision for one project/account. Deliver the useful result now when possible, retain it, and manage the supported native instruction through its lifecycle. Reuse the current tools, [foundation reads](foundation-reads.md) and [durable continuation](durable-continuation.md); host authored reviews and finite server monitoring are separate mechanisms; the server monitoring/action route below supplies bounded checks and explicitly armed exact pauses, without granting general advertising authority. The external agent interprets facts. Independent Tactis workers collect data and numerical observations; they do not start a model turn.
 
 ## Toolbox by stage
 
@@ -24,7 +26,7 @@ Reuse the user's supplied client context and exact relevant Work; do not require
 | «Каждый понедельник готовь итоги и следующий шаг» | Weekly note: comparable indicators, changes, unresolved work, up to three grounded priorities and one concrete next step | The requested material is produced at its agreed cadence even without a new alert; do not invent an incident to justify it |
 | «Вернись к этому решению после зрелого окна» | Decision review: original intent, actual application state, available observation, remaining uncertainty and next decision/check | At the agreed revisit condition; waiting and the next useful check are valid results, not a successful effect |
 
-Daily control uses actually available completed days and the agreed comparison rule; it is not a real-time budget guard. A weekly note may include a due decision review in the same instruction. Create a separate daily instruction only when requested; do not multiply schedules for each product involved.
+Daily authored control uses actually available completed days and the agreed comparison rule. A finite server rule with a separately authorized one-shot exact pause is available through the platform route; neither is a guaranteed real-time spend ceiling. A weekly note may include a due decision review in the same instruction. Create a separate daily instruction only when requested; do not multiply schedules for each product involved.
 
 ## Check the host prerequisite
 
