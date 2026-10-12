@@ -20,11 +20,16 @@ Tactis сохраняет контекст клиента, решения и и�
 
 ## Установка
 
+Проверь поддержку `plugins marketplace add --sparse` в установленном native CLI ZCode. В общем репозитории ZCode может выбрать каталог Claude раньше своего; `--sparse zcode` оставляет корневой `marketplace.json` и `zcode/plugin`. Не добавляй корень репозитория через GUI без явного выбора каталога ZCode. Если CLI или такой выбор недоступны, нужно поддержанное действие пользователя.
+
 Добавь GitHub marketplace штатным менеджером своей программы:
 
 ```text
-В Settings → Plugins добавь GitHub marketplace https://github.com/VasiliyR/tactis-plugins.git и установи Tactis Ads.
+zcode plugins marketplace add https://github.com/VasiliyR/tactis-plugins.git#main --sparse zcode
+zcode plugins install tactis@tactis-ads --scope user
 ```
+
+Перед установкой через `zcode plugins marketplace list --json` сверь официальный source/ref и `source.sparsePaths=["zcode"]`; в опубликованном корневом каталоге `tactis` должен иметь source `./zcode/plugin`. После установки прочитай корневой `release.json`: host должен быть `zcode`, а версия и digest — совпадать с опубликованным пакетом ZCode. Чужой host или прежний источник без выбора каталога — конфликт, а не повод для автоматической переустановки.
 
 Источник: ветка `main`, канал совместимости `v1`; плагин `tactis@tactis-ads`. Сверь команды с `--help` своей версии. Подробные шаги: https://tactis.ru/install.md?agent_host=zcode.
 
