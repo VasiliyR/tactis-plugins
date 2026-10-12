@@ -1,0 +1,13 @@
+NEGATIVE_CONTEXTS (zero-based contexts/items):
+{{ negative_contexts | tojson if ascii_json_budget | default(false) else negative_contexts | tojson_unicode }}
+
+INTENT_CONTEXTS (position = index in this array; item position = index inside its array):
+{{ intent_contexts | tojson if ascii_json_budget | default(false) else intent_contexts | tojson_unicode }}
+
+SUBJECTS: contexts и точные verdict fields для каждого negative в исходном порядке:
+{{ subjects | tojson if ascii_json_budget | default(false) else subjects | tojson_unicode }}
+
+Всего обязательных verdict-полей: {{ verdict_count }}.
+required_fields — полный список required JSON keys, включая evidence каждого verdict:
+{{ required_fields | tojson if ascii_json_budget | default(false) else required_fields | tojson_unicode }}
+/no_think

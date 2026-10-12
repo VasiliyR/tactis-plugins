@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Tactis",
+    "url": "https://tactis.ru"
+  },
+  "description": "Tactis Ads — Директ и Метрика в твоём чате. Анализ, изменения и память клиентов.",
+  "homepage": "https://tactis.ru",
+  "keywords": [
+    "Яндекс Директ",
+    "Яндекс Метрика",
+    "реклама",
+    "кампании",
+    "аналитика",
+    "отчёты",
+    "агентства"
+  ],
+  "mcpServers": "./.mcp.json",
+  "name": "tactis",
+  "skills": "./skills/",
+  "version": "1.3.0"
+}

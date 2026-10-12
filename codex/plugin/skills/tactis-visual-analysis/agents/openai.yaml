@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tactis Ads: графики"
+  short_description: "Сравнения, графики и таблицы"
+  default_prompt: "Используй $tactis-visual-analysis, чтобы показать результаты моей рекламы в понятных графиках и таблицах."

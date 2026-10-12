@@ -1,0 +1,27 @@
+{
+  "command_key": "synthetic-direct-business-facts",
+  "project_id": "p_demo",
+  "memory_version": 1,
+  "goal_version": 1,
+  "expected_business_generation": 1,
+  "context_mode": "amend",
+  "memory": {
+    "business": "Ремонт оборудования",
+    "audience": "Небольшие компании",
+    "region": "Казань",
+    "limitations": "Обслуживаем только юридические лица",
+    "unknown_fields": ["economics"]
+  },
+  "goal": {
+    "unknown_fields": ["business_goal", "metric", "target"]
+  },
+  "effective_from": "2026-10-11T00:00:00Z",
+  "provenance": [
+    {
+      "kind": "direct_user_statement",
+      "text": "Мы ремонтируем оборудование для небольших компаний в Казани и обслуживаем только юридические лица. В этом разборе рекламу не меняй."
+    }
+  ],
+  "unknown_fields": ["economics", "business_goal", "metric", "target"],
+  "rationale": "Прямые факты о бизнесе и ограничение обслуживания юридическими лицами; бизнес-цель и экономика не названы. Разовый запрет изменения рекламы относится к этой работе и сохраняется в Work/continuation, а не в бизнес-профиле. Синтетический пример, а не данные клиента."
+}

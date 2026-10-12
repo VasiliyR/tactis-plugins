@@ -1,0 +1,16 @@
+{
+  "name": "tactis-ads",
+  "owner": {
+    "name": "Tactis",
+    "url": "https://tactis.ru"
+  },
+  "plugins": [
+    {
+      "description": "Реклама в Яндекс Директе через чат: анализ, план изменений и продолжение работы по клиентам.",
+      "displayName": "Tactis Ads",
+      "name": "tactis",
+      "source": "./claude/plugin",
+      "version": "1.3.0"
+    }
+  ]
+}

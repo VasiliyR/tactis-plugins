@@ -1,0 +1,23 @@
+{
+  "description": "Tactis — реклама и задачи маркетинга через твоего ИИ-агента",
+  "name": "tactis-ads",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "description": "Tactis Ads — Директ и Метрика в твоём чате. Анализ, изменения и память клиентов.",
+      "displayName": "Tactis Ads",
+      "name": "tactis",
+      "source": "./zcode/plugin",
+      "tags": [
+        "Яндекс Директ",
+        "Яндекс Метрика",
+        "реклама",
+        "кампании",
+        "аналитика",
+        "отчёты",
+        "агентства"
+      ],
+      "version": "1.3.0"
+    }
+  ]
+}
