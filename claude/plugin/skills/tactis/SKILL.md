@@ -1,12 +1,14 @@
 ---
 name: tactis
 description: >-
-  Начни или продолжи работу по клиенту в Tactis: восстанови контекст, выбери приоритет среди задач маркетинга, подготовь программу роста или согласуй работу по нескольким проектам. Используй для «с чего начать», «продолжи работу по клиенту» и смешанных задач; для конкретного результата выбери профильный навык Tactis.
+  Объясни, что умеет Tactis, выбери полезную задачу маркетинга, начни или продолжи работу по клиенту и подготовь программу роста. Используй для «что можно сделать», «с чего начать», «продолжи работу по клиенту» и смешанных задач; конкретный результат ведёт профильный навык Tactis.
 metadata:
   version: tactis-method-0.4
 ---
 
 # Tactis — работа по клиенту и выбор следующего шага
+
+For «Что умеет Tactis?» or a general request for examples, read [useful tasks and capability discovery](references/capabilities-guide.md) and answer from that local guide. This explanation does not need OAuth, a selected client or server reads. Explain results and necessary inputs; do not require setup merely to describe the product. For «С чего начать с моим бизнесом?» use the connected branch when server context is needed, then offer at most three useful choices based on actual inputs and scope. A concrete requested result goes directly to its matching skill or procedure.
 
 For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
 
@@ -20,6 +22,7 @@ Use a short route when it answers the question. Open the matching product proced
 
 | Client-wide request | Short route |
 | --- | --- |
+| What Tactis can do / examples of useful tasks | [Capability discovery](references/capabilities-guide.md): explain useful results without connection; after connected context, suggest only relevant choices. |
 | New client / «С чего начать?» | [Onboarding](references/onboarding.md): recover existing choices and sources, deliver and save the first useful result. A new client does not require a full audit. |
 | Several clients / positioning or offer | [Portfolio and offer](references/portfolio-offer.md): authorized per-client scopes or a grounded offer hypothesis and first material; no invented aggregate reader or market claim. |
 | Continue saved work | Read the relevant full head and exact material through [durable continuation](references/durable-continuation.md). Known Work uses `get_work_session(project_id, work_session_id)`; older material is discovered through `get_work_session(project_id, collection="work_sessions", ...)`. |

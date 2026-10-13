@@ -6,7 +6,7 @@
   "plugins": [
     {
       "category": "Productivity",
-      "description": "Анализ рекламы, план изменений и продолжение работы по клиентам через твоего ИИ-агента.",
+      "description": "Выбери задачу бизнеса, получи готовый материал или анализ и продолжи работу со своим ИИ-агентом.",
       "name": "tactis",
       "policy": {
         "authentication": "ON_USE",
@@ -16,7 +16,7 @@
         "path": "./codex/plugin",
         "source": "local"
       },
-      "version": "1.5.0"
+      "version": "1.6.0"
     }
   ]
 }

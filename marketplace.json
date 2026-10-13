@@ -4,7 +4,7 @@
   "plugins": [
     {
       "category": "Productivity",
-      "description": "Tactis Ads — Директ и Метрика в твоём чате. Анализ, изменения и память клиентов.",
+      "description": "Tactis — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
       "displayName": "Tactis Ads",
       "name": "tactis",
       "source": "./zcode/plugin",
@@ -17,7 +17,7 @@
         "отчёты",
         "агентства"
       ],
-      "version": "1.5.0"
+      "version": "1.6.0"
     }
   ]
 }

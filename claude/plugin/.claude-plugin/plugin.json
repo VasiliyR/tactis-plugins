@@ -3,7 +3,7 @@
     "name": "Tactis",
     "url": "https://tactis.ru"
   },
-  "description": "Реклама в Яндекс Директе через чат: анализ, план изменений и продолжение работы по клиентам.",
+  "description": "Задачи маркетинга через чат: готовые материалы, анализ данных, память бизнеса и продолжение работы.",
   "displayName": "Tactis Ads",
   "homepage": "https://tactis.ru",
   "keywords": [
@@ -18,5 +18,5 @@
   "mcpServers": "./.mcp.json",
   "name": "tactis",
   "skills": "./skills/",
-  "version": "1.5.0"
+  "version": "1.6.0"
 }

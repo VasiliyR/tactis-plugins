@@ -4,7 +4,7 @@
     "name": "Tactis",
     "url": "https://tactis.ru"
   },
-  "description": "Tactis Ads — Директ и Метрика в твоём чате. Анализ, изменения и память клиентов.",
+  "description": "Tactis — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
   "homepage": "https://tactis.ru",
   "keywords": [
     "Яндекс Директ",
@@ -16,5 +16,5 @@
     "агентства"
   ],
   "name": "tactis",
-  "version": "1.5.0"
+  "version": "1.6.0"
 }
