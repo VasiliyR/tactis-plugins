@@ -119,6 +119,14 @@ Subscription, project capacity, renewal, role membership, stop/revoke, source co
 
 For Codex↔ZCode handoff preserve project/account, facts and memory/goal versions, work/task, plan/digest, Application, measurement/observation and report IDs plus the next check. The new host separately authenticates and reads these same artifacts. It needs neither copied chat history nor another host's token. Keep the original command key and method provenance. Actual installed-host acceptance is recorded separately from a package build.
 
+## Shared company projects
+
+Each collaborator uses their own human identity and personal host OAuth grant. A project shares confirmed context, saved Work, continuation, tasks, materials and supported source connections. Private chat transcripts and credentials are not copied. Read `team` in the project brief to resolve a colleague's exact actor ID before assigning a task; assignment grants no access. The owner invites verified email identities and manages source connections in the cabinet.
+
+On a continuation or business-context version conflict, reread the current versions and the colleague's saved result before reconciling your snapshot. Preserve their active entries and exact evidence; do not retry stale meaning with merely updated version numbers. Material contradictions require the user's choice. A recorded colleague statement or prior action is not the current user's authorization for another external effect. Plans bound to another principal/grant cannot be executed by borrowing their identity; retain exact accepted Application recovery.
+
+Subscription capacity counts enabled company projects. Colleagues and additional source accounts inside the same project do not consume extra places. An excluded project retains historical reads but blocks new project-level and account-level work. A collaborator uses the project's organization subscription even if their personal subscription has expired; only the paying organization owner manages billing and project selection.
+
 ## Tools and quality boundaries
 
 The release manifest lists only current rich and base/context tools. Discover actual server schemas at use time; a method reference does not authorize an absent tool. Historical compatibility tools are not exposed to the model. Retained first-slice artifacts keep their original method/schema and are not a substitute for current publications, exact plans or execution authority.
