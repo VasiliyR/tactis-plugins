@@ -1,7 +1,7 @@
 ---
 name: tactis
 description: >-
-  Объясни, что умеет Tactis, выбери полезную задачу маркетинга, начни или продолжи работу по клиенту и подготовь программу роста. Используй для «что можно сделать», «с чего начать», «продолжи работу по клиенту» и смешанных задач; конкретный результат ведёт профильный навык Tactis.
+  Объясни, что умеет Tactis, выбери полезную задачу маркетинга, начни или продолжи работу по клиенту, задай цели и числовые показатели проекта и подготовь программу роста. Используй для «что можно сделать», «с чего начать», «продолжи работу по клиенту» и смешанных задач; конкретный результат ведёт профильный навык Tactis.
 metadata:
   version: tactis-method-0.4
 ---
@@ -9,6 +9,8 @@ metadata:
 # Tactis — работа по клиенту и выбор следующего шага
 
 For «Что умеет Tactis?» or a general request for examples, read [useful tasks and capability discovery](references/capabilities-guide.md) and answer from that local guide. This explanation does not need OAuth, a selected client or server reads. Explain results and necessary inputs; do not require setup merely to describe the product. For «С чего начать с моим бизнесом?» use the connected branch when server context is needed, then offer at most three useful choices based on actual inputs and scope. A concrete requested result goes directly to its matching skill or procedure.
+
+For project goals, numeric targets, business parameters, source bindings and progress, read [project goals](references/project-goals.md). These are the shared priorities for chat, cabinet, agents and the data worker.
 
 For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
 

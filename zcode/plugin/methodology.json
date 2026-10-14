@@ -62,7 +62,11 @@
     "site.feed.1",
     "webmaster.connection.1",
     "webmaster.registry.1",
-    "webmaster.snapshot.1"
+    "webmaster.snapshot.1",
+    "project.goals.1",
+    "project.metric-catalog.1",
+    "project.metric-facts.1",
+    "project.goal-observation.1"
   ],
   "workflow": "full-simple-mvp",
   "capability_profile": "tools-only-chat-choice-execution",
@@ -245,7 +249,15 @@
     "get_material_publication",
     "list_material_publications",
     "revoke_material_publication",
-    "get_material_feedback"
+    "get_material_feedback",
+    "get_metric_catalog",
+    "get_project_goals",
+    "list_project_metric_sources",
+    "record_project_metric_facts",
+    "get_project_metric_facts",
+    "capture_project_goal_progress",
+    "get_project_goal_progress",
+    "create_project_goal_report"
   ],
   "base_tools": [
     "get_tool_contract",
@@ -284,5 +296,6 @@
   ],
   "license_status": "Selected Tactis project prompts carried with exact provenance and target adaptations; no third-party host implementation copied. Distribution license not assigned by this package.",
   "provider_profile": "fixture-and-scoped-native-read",
-  "platform_workflow": "skills/tactis/references/platform-workflow.md"
+  "platform_workflow": "skills/tactis/references/platform-workflow.md",
+  "project_goals_workflow": "skills/tactis/references/project-goals.md"
 }

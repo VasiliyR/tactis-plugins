@@ -97,3 +97,6 @@ For «Продолжи выбранную работу» use its exact Work/mate
 read the complete original result before acting. This utility is not a new task
 that discards the old selection. Another host authorizes independently and reads
 the same server artifacts; copied chat text or credentials do not prove access.
+
+
+Для целей проекта Tactis сохраняет исходную формулировку и отдельные числовые targets, ограничения и параметры бизнеса. Пользователь может задать цель в ИИ-чате или кабинете. Источники связываются с теми же показателями; прогресс и задачи на разбор используют сохранённые наблюдения. Известные 155 метрик не означают автоматически подключённые данные. Для реальной работы открой [цели проекта](project-goals.md).
