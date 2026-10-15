@@ -12,7 +12,8 @@ Use for “Какие страницы и темы развивать для о�
 | Ground offer and page gaps | `get_landing_manifest`, `get_landing_page`; `prepare_landing_document` / `get_landing_job` only when needed | One document/selected supplied URLs, no fabricated whole-site crawl |
 | Research the selected search intent | Existing `get_demand_publication`; authorized `acquire_demand` only for a necessary gap | Exact phrases/region/devices/time; Search API access is separate from Direct |
 | Retain brief and first usable section | `record_work_session` → exact `get_work_session` | Grounded title/H1/sections/complete first material, exact source and next check; [shared gates](invariants.md) |
-| Review public material and organic entries | Landing readers; `capture_page_observation(traffic_scope="organic_search")` / `get_page_observation` under the actual schema | [Search observations](seo-observations.md); no Webmaster, indexing or organic query-position claim |
+| Connect intent, verified host and exact-page entries | `get_page_growth_evidence` with selected demand/Webmaster/organic publication IDs and exact page URL | Host query pool is not proof of query-to-page attribution; [comparable observations](seo-observations.md) |
+| Review public material and organic entries | Landing readers; `capture_page_observation(traffic_scope="organic_search")` / `get_page_observation` | Exact page/source and completed comparable windows; Webmaster remains separate evidence |
 
 ## Read enough to choose
 
@@ -79,7 +80,9 @@ If the next need concerns the page's offer/CTA, follow [Conversion](conversion-w
 
 Return from these products with the exact saved material locator/version and insertion point. Check public content as above and then suitable search observations. Conversion entry/device data, including a future reader, is not automatically pure organic traffic; keep source/filters intact. If a requested separate report cannot use the actual Reports inputs/schema, retain the useful chat/Work result and name that limitation; do not fabricate A1 or a report ID.
 
-On a new chat, read the exact received material and unresolved next step before asking anything already answered. An intermediate handoff is not task completion. When current schemas actually support Platform keep_pending, use it for intermediate task-linked Work; otherwise omit task_id and save independent ordinary Work, leaving the task pending. Do not invent keep_pending fields in the frozen schema or mark a task done because the brief/copy was saved.
+On a new chat, read the exact received material and unresolved next step before asking anything already answered. Save the complete chosen brief/section with `save_material`, retaining its exact ID/version and `parent_id` for a revision. Create or assign an ordinary project task when editorial work is needed. Intermediate task-linked Work uses `task_resolution="keep_pending"`; saving a brief/copy does not complete publication or measurement.
+
+For a connected page decision, use `get_page_growth_evidence` with the existing source locators. Retain its admitted `foundation_refs`/`platform_refs` and save `Work.learning`: hypothesis = selected intent and expected visitor benefit; context = exact page, query/region/device and separate source windows; action = saved material/version and editorial task; success_criterion = the agreed observable page/goal change; result/conclusion = what is observed or still unknown. The intent-to-page link is the agent's authored hypothesis. Use `pending` before assessment and `inconclusive` for incompatible or insufficient observations. No new source grant or automatic publication follows.
 
 ## Save and return
 

@@ -1,8 +1,10 @@
 # Useful tasks and capability discovery
 
 Use this guide for «Что умеет Tactis?», examples of useful work, and choosing an
-open first task. Describe the user's result, the inputs that matter and one next
-step. Do not explain the MCP tool inventory, twelve product names or internal
+open first task. A concrete request goes straight to its result; do not offer a
+new catalogue or interview first. For a saved report, file or continuation, use
+[the short saved-work entry](session-entry.md#find-or-continue-a-saved-result).
+Describe the user's result, the inputs that matter and one next step. Do not explain the MCP tool inventory, twelve product names or internal
 versions to an ordinary user. The catalogue groups 34 new tasks into 14 needs;
 continuing selected saved work is a separate utility.
 
@@ -30,7 +32,9 @@ in chat. General discovery creates no draft or grant before setup.
 ## Connected first choice
 
 When the user wants work on their client, use [session entry](session-entry.md)
-once and reuse that resolved context. Keep a handoff's explicit project-only
+once when the task needs connected data or saving, and reuse that resolved
+context. Supplied material alone can support an immediate attributed answer.
+Keep a handoff's explicit project-only
 scope, exact advertiser or selected saved work. A cabinet account selector does
 not override the original source or artifact owner.
 
@@ -59,6 +63,10 @@ does not determine all material/report rights. Check the actual method and owner
 subscription expiry does not erase retained readable history. An active trial is
 usable access. A blocked advertiser does not block authorized project-only work.
 
+For an actually new client, use [onboarding](onboarding.md) for the missing
+context and first useful result. Several clients or positioning/offer work can
+use [portfolio and offer](portfolio-offer.md); preserve each original scope.
+
 ## Task routes
 
 Read only the matching skill or procedure when its substantive result is needed.
@@ -74,7 +82,7 @@ executed proof.
 | **Create advertising materials**: three text concepts and a complete selected version; real creative files. | Confirmed offer promises, audience and format. Images need an actually available creation/editing capability in the current host. | [Ad copy](../../tactis-ad-copy/SKILL.md), [Creative](creative-workflow.md). Materials do not require Direct. If images cannot be created, prepare the brief; do not invent an image or upload. |
 | **Improve a landing page**: prepare one exact copy/offer/action edit; analyze selected page visits. | Page text or URL, offer and desired action. Numerical observations need a selected counter, finite period and relevant goal. | [Landing review](../../tactis-landing-review/SKILL.md), [Conversion](conversion-workflow.md). Copy can be project-only; observation uses the selected Metrika source's actual nullable account. No CMS publication is performed. |
 | **Check measurement**: interpret goals/conversions; present analytical graphs/tables. | Selected data, event meanings, period, units and coverage. Supplied files can support provisional analysis. | [Measurement analysis](../../tactis-measurement-analysis/SKILL.md), [Visual analysis](../../tactis-visual-analysis/SKILL.md). Preserve each exact source scope. A visit, qualified lead and paid sale are different events; graphs do not make incomplete data complete. |
-| **Compare and plan channels**: compare imports; save a media plan; compare plan and actual. | Actual files with explicit mapping/provenance; or a budget plus CPC/conversion-rate ranges for an assumption-based scenario. | [scenario 5](platform-workflow.md). Retained marketing imports require a real registered advertising identity; registration grants no provider access. A media plan allows explicit project-only scope without Direct. Every compared publication is separately authorized; preserve the original plan scope and incompatible definitions. |
+| **Compare and plan channels**: compare retained Direct/Metrika/CRM facts or imports; save a media plan; compare plan and actual. | Exact retained publications and their coverage; actual files with explicit mapping/provenance; or a budget plus CPC/conversion-rate ranges for an assumption-based scenario. | [Marketing data matrix](marketing-data-matrix.md), [scenario 5](platform-workflow.md). Source summaries do not prove campaign attribution or a joined acquisition cohort. Retained marketing imports require a real registered advertising identity; registration grants no provider access. A media plan allows explicit project-only scope without Direct. Every compared publication is separately authorized; preserve the original plan scope and incompatible definitions. |
 | **Understand economics**: estimate contribution after advertising and an affordable paid-sale cost. | Payments, refunds, contribution per sale and spend. Supplied assumptions remain attributed. | [Profit](profit-workflow.md). The verified recipe compares homogeneous services/campaigns in one advertiser; a project calculation can remain provisional. Contribution after advertising is not company net profit or bank settlement. |
 | **Improve sales**: review inquiry quality/handling; prepare offline qualified/paid conversions. | Selected CRM/Calltouch pipeline and meanings; or real private conversion CSV, identifiers/times/evidence and a selected editable counter with mapped goals. | [Sales](sales-workflow.md), [scenarios 6–7](platform-workflow.md). CRM and offline commands retain the selected connection's actual nullable account. Preparation, upload and processing remain separate; processing does not prove attribution or benefit. |
 | **Audience and repeat sales**: prepare a next-purchase/winback rule and complete offer; review repeat purchases of the original group; create a private segment; prepare its Audience activation. | Known product/cycle and rule. Automatic Lifecycle cohort needs qualified complete supported Bitrix history; outcome needs the original cohort and compatible later history. Segment uses actual private mapped rows or an exact cohort. Activation needs its separately authorized compatible connection. | [Lifecycle](lifecycle-workflow.md), [Audience](audience-workflow.md), [scenario 9](platform-workflow.md). Manual offer/rule can be project-only; no fabricated automatic cohort. Source/cohort/segment scope wins. A matched customer is not channel consent; processed audience is not attached Direct targeting. |
@@ -100,3 +108,39 @@ the same server artifacts; copied chat text or credentials do not prove access.
 
 
 Для целей проекта Tactis сохраняет исходную формулировку и отдельные числовые targets, ограничения и параметры бизнеса. Пользователь может задать цель в ИИ-чате или кабинете. Источники связываются с теми же показателями; прогресс и задачи на разбор используют сохранённые наблюдения. Известные 155 метрик не означают автоматически подключённые данные. Для реальной работы открой [цели проекта](project-goals.md).
+
+
+## Product routes for mixed work
+
+Use this map only when the chosen task needs a product transition or the user
+asks to explore the wider platform. The same agent carries the saved result
+forward; do not load every procedure before starting a concrete request.
+
+| User goal and connected work | Product procedure |
+| --- | --- |
+| Diagnose advertising → choose an improvement or prepare SEARCH → apply an exact supported plan → review the result | [Tactis Ads](ads-workflow.md) |
+| Control meaningful changes or produce weekly material → revisit a saved decision → change or stop the instruction | [Tactis Automation](automation-workflow.md) |
+| Understand audience conditions and exclusions → choose for an offer → prepare the handoff → revisit comparable observations | [Tactis Audience](audience-workflow.md) |
+| Brief and concepts → complete text package → exact chosen version → application or feedback | [Tactis Creative](creative-workflow.md) |
+| Create a requested client report from saved evidence and Work → read its private artifact and limitations | [Tactis Reports](mvp-workflow.md), “Frozen measurements and private reports” |
+| Compare economics → set a paid-sale cost limit or constrained budget proposal → revisit payments, refunds and costs | [Tactis Profit](profit-workflow.md) |
+| Choose a hypothesis and design → save the material and original criterion → read actual application/measurement → decide and reuse | [Tactis Experiments](experiments-workflow.md) |
+| Match the offer and page → inspect entry observations → prepare an exact page edit → verify the public version and comparable observations | [Tactis Conversion](conversion-workflow.md) |
+| Prioritize pages and demand → brief and first material → editorial/public review → search observations and next work | [Tactis SEO](seo-workflow.md) |
+| Inquiry quality and processing → a useful assignment → actual execution evidence → paid outcomes and next check | [Tactis Sales](sales-workflow.md) |
+| Next purchase or winback → group rule and contact materials → eligibility/application evidence → matched repeat payments and next decision | [Tactis Lifecycle](lifecycle-workflow.md) |
+| Choose a growth constraint → a feasible programme and first material → subject work and progress → revise priorities/resources | [Tactis Growth](growth-workflow.md) |
+
+## Continue across products in the same chat
+
+Use a transition when it advances the user's task. Begin with its relevant stage and read the next product's procedure only when reaching it. The same external agent performs the work; there is no separate agent call or requirement to visit every product. The linked procedures contain the concrete handoff and missing-data branches.
+
+| Scenario | Route and decision |
+| --- | --- |
+| **X1: advertise an offer for the right audience** | [Audience](audience-workflow.md) → [Creative](creative-workflow.md) → [Ads](ads-workflow.md) → [Experiments](experiments-workflow.md). Carry the selected condition, offer and exact text. Prepared audience work does not mean attach/suspend was performed. |
+| **X2: improve expensive advertising** | [Ads](ads-workflow.md) → [Conversion](conversion-workflow.md) or [Sales](sales-workflow.md) according to the supported question → relevant [Creative](creative-workflow.md), [Profit](profit-workflow.md) or [Experiments](experiments-workflow.md) work. Choose the evidenced loss or unknown; high event CPA alone does not prove poor sales or a broken page. |
+| **X3: grow repeat sales with viable economics** | [Sales](sales-workflow.md) → [Lifecycle](lifecycle-workflow.md) → relevant [Creative](creative-workflow.md) and [Profit](profit-workflow.md) work. Use matched paid purchases and the actual selected group/application evidence; CRM totals cannot recover repeat buyers. |
+| **X4: attract demand through a service page** | [SEO](seo-workflow.md) → relevant [Conversion](conversion-workflow.md) and [Creative](creative-workflow.md) work → SEO observations, or [Reports](mvp-workflow.md) if requested. Preserve the selected page/brief; all-entry observations do not become organic and publication does not prove indexing. |
+| **X5: carry a growth programme through to decisions** | [Growth](growth-workflow.md) → the chosen subject product → relevant [Experiments](experiments-workflow.md) or [Automation](automation-workflow.md) follow-up → Growth, or [Reports](mvp-workflow.md) if requested. Start the feasible work now; an unverified host schedule is not an active recurring assignment. |
+
+At a transition, carry exact project/account, source and Work locators, the complete chosen text/rule, existing user choice, actual state, limits and next check. Read the saved material instead of regenerating it. Local material labels are not typed publications. Preserve unrelated active work.
