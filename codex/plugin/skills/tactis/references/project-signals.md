@@ -27,9 +27,9 @@ For a deferred decision, give a concrete next check in Work `next_step` or the c
 
 Also include the returned `evidence_ref` as an exact typed `platform_refs` entry: `monitoring_observation`, `project_goal_observation` or `analytics_observation` with its owner ID, account scope and fingerprint. A response alone does not replace this evidence or supply an assumed digest. One Work can respond to several signals with separate entries and exact references; `task_id` still identifies only one assigned task. Do not fabricate multiple task closures in one Work.
 
-Use the normal current context/generation checks, command-key recovery, continuation CAS and exact `get_work_session` readback from [shared invariants](invariants.md) and [durable continuation](durable-continuation.md). Automatically save a substantive finding, changed decision or next check. Routine successful persistence stays silent. If a save is rejected or its outcome unknown, explain that limitation and recover the same command before treating the reaction as durable. Earlier Work that has no response field remains historical evidence; do not rewrite it.
+Use the normal current context/generation checks, command-key recovery, continuation delta/CAS and committed saved receipt from [shared invariants](invariants.md) and [durable continuation](durable-continuation.md). Automatically save a substantive finding, changed decision or next check. Routine successful persistence stays silent. If a save is rejected or its outcome unknown, explain that limitation and recover the same command before treating the reaction as durable. Earlier Work that has no response field remains historical evidence; do not rewrite it.
 
-This synthetic Work shape illustrates three reactions and one assigned task. It is not an executed result; replace every example locator, fingerprint, scope and conclusion with the actual reads. Add the relevant full continuation when carrying the next check.
+This synthetic Work shape illustrates three reactions and one assigned task. It is not an executed result; replace every example locator, fingerprint, scope and conclusion with the actual reads. Add the relevant continuation_delta when retaining the next check.
 
 ```json
 {

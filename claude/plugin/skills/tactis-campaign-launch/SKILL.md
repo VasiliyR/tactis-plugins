@@ -38,4 +38,4 @@ If the offer, source, geography, money policy, rights or provider shape is missi
 
 Return the actual stage, complete selected material and real Plan/Application IDs when present. After launch, use `get_native_measurement` and the actual retained `get_native_outcome` to distinguish pending maturity, observed results and interpretation; a PAUSED graph does not prove serving or sales.
 
-Save exact material, references, status and one next step using [durable continuation](../tactis/references/durable-continuation.md), then read back the saved Work. On return resume those same objects, not a second campaign. A lost execution response uses the saved identity's read/replay recovery before another effectful request.
+Save exact material, references, status and one next step using [durable continuation](../tactis/references/durable-continuation.md), retain its committed saved receipt. On return resume those same objects, not a second campaign. A lost execution response uses the saved identity's read/replay recovery before another effectful request.

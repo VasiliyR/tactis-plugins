@@ -69,7 +69,8 @@
     "project.metric-catalog.1",
     "project.metric-facts.1",
     "project.goal-observation.1",
-    "project.signal.1"
+    "project.signal.1",
+    "agent.continuation-delta.1"
   ],
   "workflow": "full-simple-mvp",
   "capability_profile": "tools-only-chat-choice-execution",
@@ -287,6 +288,7 @@
     "get_work_session",
     "ingest_business_material",
     "propose_context_bundle",
+    "update_business_profile",
     "record_work_session",
     "get_project_brief",
     "get_proactive_delivery_policy",

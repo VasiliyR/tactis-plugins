@@ -1,6 +1,6 @@
 # Portfolio priorities and a grounded offer
 
-These are two optional user-requested tasks over current capabilities. Choose the requested task, not both. Scope/authority/save rules belong to [invariants](invariants.md); [durable continuation](durable-continuation.md) owns exact Work readback/return.
+These are two optional user-requested tasks over current capabilities. Choose the requested task, not both. Scope/authority/save rules belong to [invariants](invariants.md); [durable continuation](durable-continuation.md) owns Work save/recovery/return.
 
 ## Portfolio: one next step per authorized client
 

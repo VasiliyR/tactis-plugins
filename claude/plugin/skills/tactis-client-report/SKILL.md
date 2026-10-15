@@ -32,7 +32,7 @@ Read [private report mechanics](../tactis/references/mvp-workflow.md#frozen-meas
 | Launch | The exact Application plus compatible Analysis/Work; include its measurement when a numerical intent exists. A technical PAUSED draft or pending observation keeps that state |
 | Experiment | Exact Application, retained native outcome, measurement and corresponding Analysis cited in Work; an elapsed date alone does not establish a mature covered outcome |
 
-Save and read back the substantive Work before creating its document, using [durable continuation](../tactis/references/durable-continuation.md). Reuse a matching existing report when the request concerns that version. Otherwise call the actual available creation tool and read `get_client_report` for its resulting metadata and authenticated HTML/PDF links. A creation request or lost response is not proof of a completed file.
+Save the substantive Work and use its committed receipt before creating its document, using [durable continuation](../tactis/references/durable-continuation.md). Reuse a matching existing report when the request concerns that version. Otherwise call the actual available creation tool and read `get_client_report` for its resulting metadata and authenticated HTML/PDF links. A creation request or lost response is not proof of a completed file.
 
 ## Publish or revoke a saved HTML version
 

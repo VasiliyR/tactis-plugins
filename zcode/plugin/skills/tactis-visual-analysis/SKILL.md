@@ -13,7 +13,7 @@ The chat is the working surface. Answer the user's analytical question with the 
 
 Create a separate report, PDF, presentation or export only when the user requests that deliverable (including an explicit standing request). A request to analyze or show a graph is not a request to call `create_analysis_report`. Saving evidence, Work, decisions and measurements is independent of producing documents. This skill never grants permission to change advertising.
 
-This skill can be the first Tactis entry in a new chat. Before using connected client data, read the shared [platform and client entry](../tactis/references/session-entry.md) to resolve Tactis tools, project/account, current business generation, confirmed metric choices and relevant saved Work. Reuse an already resolved context from the main skill. Automatically follow its Work/full-continuation/readback route for a substantive new finding or next check; routine successful saving stays silent and a cosmetic rerender needs no duplicate Work. Supplied numbers alone can support the provisional sketch described below.
+This skill can be the first Tactis entry in a new chat. Before using connected client data, read the shared [platform and client entry](../tactis/references/session-entry.md) to resolve Tactis tools, project/account, current business generation, confirmed metric choices and relevant saved Work. Reuse an already resolved context from the main skill. Automatically follow its Work/delta/committed-receipt route for a substantive new finding or next check; routine successful saving stays silent and a cosmetic rerender needs no duplicate Work. Supplied numbers alone can support the provisional sketch described below.
 
 ## Choose the representation
 

@@ -10,7 +10,7 @@ Use [foundation reads](foundation-reads.md) and [durable continuation](durable-c
 | Explain lists and actual consumers | `get_current_configuration`, `get_configuration_manifest`, `get_configuration_retargeting_lists`, `get_configuration_campaign` | Pin one configuration and page the needed families; a list name does not define behaviour |
 | Check the selected goal meaning | `get_audience_sources` with its exact linked counter/goal scope | Definition/availability is distinct from business result and measurement eligibility |
 | Revisit comparable group observations | `get_campaign_dossier`, `get_dossier_family` | Group evidence does not prove audience CPA or random allocation |
-| Preserve choice and hand to Creative/Ads | `record_work_session` → exact `get_work_session` | Full chosen rules/windows/offer, limits and next step; [shared gates](invariants.md). Actual segment activation uses the separate exact command/digest route; Direct targeting needs its own supported operation |
+| Preserve choice and hand to Creative/Ads | `record_work_session` → committed saved receipt | Full chosen rules/windows/offer, limits and next step; [shared gates](invariants.md). Actual segment activation uses the separate exact command/digest route; Direct targeting needs its own supported operation |
 
 ## Start from the client's existing decision
 
@@ -54,7 +54,7 @@ A useful result can be: chosen preparation candidate, exact reason it cannot be 
 
 ## Save, return and compare at the supported level
 
-Save ordinary Work with the choice, bounded alternatives, confirmed versus assumed source meaning, exact IDs/Rules/windows/offer/material, real evidence locators/fingerprints/time/coverage, unavailable action, next prerequisite and revisit event. Use the actual returned Work ID for readback; local labels are meaningful only inside that Work. Do not create a new Audience schema or numeric assessment just to save the decision.
+Save ordinary Work with the choice, bounded alternatives, confirmed versus assumed source meaning, exact IDs/Rules/windows/offer/material, real evidence locators/fingerprints/time/coverage, unavailable action, next prerequisite and revisit event. Retain the actual returned Work ID from its committed receipt; local labels are meaningful only inside that Work. Do not create a new Audience schema or numeric assessment just to save the decision.
 
 On return, read the prior Work first and current relevant configuration/definitions only as permitted. If source definition, Rules, offer or access changed, preserve old evidence as historical and save a revised choice linked to it. Do not silently carry an old exclusion forward. With unknown fields keep the usable portion and state the exact missing input.
 

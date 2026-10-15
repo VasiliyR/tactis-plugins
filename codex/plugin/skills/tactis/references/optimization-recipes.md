@@ -6,7 +6,7 @@ Enter at the symptom the user named. Use the five-stage [performance diagnosis](
 
 1. Reuse authorized project/account and a pinned Daygrain/Analysis/Dossier. Otherwise `get_account_read_grant` → `get_current_daygrain` → needed `get_campaign_metrics` pages establishes the change. Keep exact event, denominator, units/VAT, attribution, window and coverage.
 2. Choose one row below. Configuration: `get_current_configuration` → scoped `get_configuration_campaign`. Detailed observations: completed `get_dossier_manifest` → `get_campaign_dossier` → needed `get_dossier_family` pages; `capture_analysis`/`capture_dossiers` only if that relevant frozen material does not exist. Follow jobs rather than treating admission as observations.
-3. Return object → observed change → competing explanation/unknown → ready check or exact proposal → revisit condition. Save/read back through `record_work_session`/`get_work_session`. A supported change uses [current actions](current-actions.md), preserving freeze → chat choice → execute → readback.
+3. Return object → observed change → competing explanation/unknown → ready check or exact proposal → revisit condition. Save through `record_work_session` and retain its committed receipt; use `get_work_session` for history, conflicts or recovery. A supported change uses [current actions](current-actions.md), preserving freeze → chat choice → execute → readback.
 
 | Symptom | Three checks in order, with actual source | Useful result or honest unknown |
 | --- | --- | --- |

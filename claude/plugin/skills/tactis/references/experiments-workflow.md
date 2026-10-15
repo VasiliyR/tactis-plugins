@@ -11,7 +11,7 @@ Use when the user asks what to check first, wants the material for a check, retu
 | Review the actual effect and frozen window | `get_operations_application`, `get_native_measurement`, exact `get_native_outcome` | The ordinary observational return path below; real Application linkage only |
 | Prepare/read a prospective controlled design | `prepare_assisted_experiment`, `get_assisted_experiment` | [Assisted recipe](assisted-experiment.md): existing disjoint arms, real external allocator, fixed horizon/sample assumptions |
 | Publish/read its one final external evidence look | `record_assisted_experiment_outcome`, `get_assisted_experiment` | [Assisted outcome](assisted-experiment.md#outcome-input-and-interpretation): actual hashes/attestations, maturity and conditional-estimate limits |
-| Save the original-condition decision | `record_work_session(kind="experiment_review")` → exact `get_work_session` | [Shared task/CAS gates](invariants.md); pending/unknown is a valid result, not task completion |
+| Save the original-condition decision | `record_work_session(kind="experiment_review")` → committed saved receipt | [Shared task/CAS gates](invariants.md); pending/unknown is a valid result, not task completion |
 
 ## Choose a useful hypothesis and design
 

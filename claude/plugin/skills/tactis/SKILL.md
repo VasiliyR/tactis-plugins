@@ -15,7 +15,7 @@ When connected data or durable saving is needed, read [session entry](references
 ## Find, continue or choose work
 
 - **Find a private report or material:** use [the saved-result entry](references/session-entry.md), read the selected original and answer the question. A public link or Direct connection is not required.
-- **Continue a saved decision:** recover the relevant full head and exact Work through [durable continuation](references/durable-continuation.md), retain its selected source/version and do the requested next step. Reconstruct from saved results, not chat history or a new onboarding.
+- **Continue a saved decision:** recover the relevant full head and the exact material needed through [durable continuation](references/durable-continuation.md), retain its selected source/version and do the requested next step. Reconstruct from saved results, not chat history or a new onboarding.
 - **Explain capabilities or choose an open first task:** read [useful tasks](references/capabilities-guide.md). A general explanation needs no OAuth or project selection. Offer up to three relevant results when the task is open; a chosen result needs no catalogue detour. This guide also preserves all product routes and cross-product transitions for mixed work.
 
 ## Enter the requested marketing task
@@ -38,7 +38,7 @@ Use [project goals](references/project-goals.md) when goals, numerical targets, 
 
 ## Save the useful result and its next step
 
-Present ordinary analysis in chat; create a report, export, publication or schedule when requested. Automatically save a substantive new finding, complete chosen material, decision or next check through [shared invariants](references/invariants.md) and [durable continuation](references/durable-continuation.md), then exact-read it. Routine successful saving stays silent; explain an unresolved save. A cosmetic rerender or simple acknowledgement needs no duplicate Work. Intermediate task work stays pending.
+Present ordinary analysis in chat; create a report, export, publication or schedule when requested. Automatically save a substantive new finding, complete chosen material, decision or next check through [shared invariants](references/invariants.md) and [durable continuation](references/durable-continuation.md); its committed receipt confirms saving. Routine successful saving stays silent; explain an unresolved save. A cosmetic rerender or simple acknowledgement needs no duplicate Work. Intermediate task work stays pending.
 
 Carry the exact project/account, source and Work locators, complete selected material, actual state, limitations and next check across procedures. Preserve unrelated active work and explicit project-only scope. A direct user business fact/correction is the applicable choice for those exact context values; inferred assumptions stay uncertain. Current business generation and source meaning still apply. Supported provider actions follow **freeze → applicable choice → execute → readback**; a saved plan, recommendation or host permission does not supply the user's money/access choice or prove an external effect.
 

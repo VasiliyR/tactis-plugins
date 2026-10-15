@@ -14,7 +14,7 @@ Use for «Подготовь/запусти поисковую рекламу э
 | Create | Existing exact chat choice or obtain it → `execute_operations` → `get_operations_application` | Per-object receipt/readback and real new IDs. Queued/partial/unknown is not created successfully. Recover the same identity on a lost response. |
 | Prepare serving | New selected native scope and `get_native_configuration`; exact catalog/schema for `goal` when required and `moderate` | Goal setup and moderation have their own exact plans/choices/readback. A submitted moderation request is not accepted readiness. |
 | Finite launch | Exact `delivery` schema, current before state, refreshed compatible baseline, confirmed finite money policy and numerical target where required | Read frozen Plan → exact applicable launch choice → execute → Application/serving readback. PAUSED creation or moderation consent does not authorize launch. |
-| Observe and return | Application's `measurement_id` → `get_native_measurement` → its actual latest outcome via `get_native_outcome`; `record_work_session` → exact readback | Actual state/window/maturity, covered observation and limited decision. Technical effect differs from business benefit and causal uplift. |
+| Observe and return | Application's `measurement_id` → `get_native_measurement` → its actual latest outcome via `get_native_outcome`; `record_work_session` → committed saved receipt | Actual state/window/maturity, covered observation and limited decision. Technical effect differs from business benefit and causal uplift. |
 
 ## Construct the first usable material
 
