@@ -22,6 +22,8 @@ Use exact owner-backed Analysis numbers rather than recomputing or improving a r
 
 ## Create the requested document
 
+For a cross-source matrix result, follow [the marketing data matrix](../tactis/references/marketing-data-matrix.md), read its exact manifest and all needed row pages, and preserve cell/source limitations in the document. A matrix-only report uses an authored HTML material with exact readback; it does not acquire the A1 prerequisite for the fixed Analysis renderer from its matrix ID.
+
 Read [private report mechanics](../tactis/references/mvp-workflow.md#frozen-measurements-and-private-reports) when generating HTML/PDF. The current `create_analysis_report` path uses exact `work_session_id`, `analysis_publication_id`, supported mode, bounded narrative and branding. Its renderer owns the fixed HTML/PDF presentation; author prose, not arbitrary HTML/JS or replacement numeric fields.
 
 | Mode | Necessary retained subject |

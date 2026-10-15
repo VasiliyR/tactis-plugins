@@ -52,6 +52,7 @@
     "material.publication.1",
     "campaign.package.1",
     "marketing.publication.1",
+    "marketing_matrix.1",
     "integration.connection.1",
     "integration.publication.1",
     "integration.command.1",
@@ -66,7 +67,8 @@
     "project.goals.1",
     "project.metric-catalog.1",
     "project.metric-facts.1",
-    "project.goal-observation.1"
+    "project.goal-observation.1",
+    "project.signal.1"
   ],
   "workflow": "full-simple-mvp",
   "capability_profile": "tools-only-chat-choice-execution",
@@ -189,6 +191,16 @@
     "get_operations_application",
     "get_operations_work",
     "get_client_report",
+    "list_project_signals",
+    "get_project_signal",
+    "list_project_metric_sources",
+    "create_project_goal_report",
+    "get_metric_catalog",
+    "get_project_goals",
+    "get_project_goal_progress",
+    "capture_project_goal_progress",
+    "record_project_metric_facts",
+    "get_project_metric_facts",
     "save_audience_segment",
     "get_audience_segment",
     "list_audience_segments",
@@ -229,6 +241,9 @@
     "list_project_accounts",
     "register_project_account",
     "detach_project_account",
+    "capture_marketing_data_matrix",
+    "get_marketing_data_matrix",
+    "get_marketing_data_matrix_rows",
     "preview_marketing_import",
     "commit_marketing_import",
     "get_marketing_publication",
@@ -249,15 +264,7 @@
     "get_material_publication",
     "list_material_publications",
     "revoke_material_publication",
-    "get_material_feedback",
-    "get_metric_catalog",
-    "get_project_goals",
-    "list_project_metric_sources",
-    "record_project_metric_facts",
-    "get_project_metric_facts",
-    "capture_project_goal_progress",
-    "get_project_goal_progress",
-    "create_project_goal_report"
+    "get_material_feedback"
   ],
   "base_tools": [
     "get_tool_contract",
@@ -297,5 +304,6 @@
   "license_status": "Selected Tactis project prompts carried with exact provenance and target adaptations; no third-party host implementation copied. Distribution license not assigned by this package.",
   "provider_profile": "fixture-and-scoped-native-read",
   "platform_workflow": "skills/tactis/references/platform-workflow.md",
-  "project_goals_workflow": "skills/tactis/references/project-goals.md"
+  "project_goals_workflow": "skills/tactis/references/project-goals.md",
+  "project_signals_workflow": "skills/tactis/references/project-signals.md"
 }

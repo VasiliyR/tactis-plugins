@@ -4,6 +4,8 @@ Use for comparing promotion economics, setting a paid-sale cost limit, planning 
 
 ## Read what is already known
 
+For a comparison across actual advertising and CRM publications, use [the marketing data matrix](marketing-data-matrix.md) first. Reuse its compatible costs, explicit cohort definitions and exact source references. A blocked money/cohort ratio cannot be repaired by allocating account revenue to campaigns or treating won value as paid revenue. Preserve unknown acquisition, tax, refunds, costs and maturity; a matrix is not person-level attribution or verified accounting profit.
+
 ### Toolbox by stage
 
 | Stage | Actual tools and useful result |
@@ -21,7 +23,9 @@ Use an existing compatible analysis, or `capture_analysis` with the exact daygra
 
 For an automatic CRM source, follow [Sales source reads](sales-workflow.md#connected-automatic-crm-source): read `get_crm_source_status`, then the exact available publication, or a supported read-only capture/job/publication when an update is needed. An unconnected source needs cabinet setup, not credentials in chat. Preserve deal/payment coverage and the accepted payment definition; CRM-marked payment is not bank settlement, refunds or profit. Current stages do not establish qualification, response time or campaign attribution. Reuse available business aggregates while that prerequisite remains open.
 
-`get_crm_publications` separately lists human-confirmed CSV evidence. Select the exact account, source, period and version; inspect mappings, classification, exclusions and unlinked records. The latest replacement for the same source/period is not an additional batch to sum. Campaign counts use the historical binding's local/native namespace: use them only if identity correspondence is actually proven. `sale` is a mapped status, not automatic proof of payment. Unknown or unlinked records cannot become exact campaign sales or zeros. Imported CRM revenue is account-level; campaign revenue, costs and refunds are unavailable in that contract. Do not allocate that revenue by spend, clicks or sales shares. The first comparison requires no new CSV upload or record-level access.
+`get_crm_publications` separately lists human-confirmed CSV evidence. Select the exact account, source, period and version; inspect mappings, classification, exclusions and unlinked records. The latest replacement for the same source/period is not an additional batch to sum. Campaign counts use the historical binding's local/native namespace: use them only if identity correspondence is actually proven. `sale` is a mapped status, not automatic proof of payment. Unknown or unlinked records cannot become exact campaign sales or zeros. The matrix can retain campaign reported-sale value when the CSV proves its historical mapping, acquisition cohort and complete classification. Keep it labelled reported-sale value; it does not establish paid revenue, costs or refunds. Other imported revenue stays at its proven source scope. Do not allocate it by spend, clicks or sales shares. The first comparison requires no new CSV upload or record-level access.
+
+Calendar CRM matrix cells keep fully-paid order counts separate from gross payment cash flow in each currency. Those payments can belong to earlier acquisition periods. Use them for the stated calendar question; paid ROAS, net revenue and cohort profitability still require the corresponding campaign/acquisition linkage, refunds, tax and cost evidence.
 
 ## Fill the one material gap
 

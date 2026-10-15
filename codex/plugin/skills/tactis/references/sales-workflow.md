@@ -6,6 +6,8 @@ Use this procedure for the linked Sales cycle: inquiry quality, processing gaps,
 
 ## Read the minimum useful evidence
 
+For a question connecting CRM outcomes to advertising/site facts, use [the marketing data matrix](marketing-data-matrix.md). It preserves exact CRM source/cohort definitions and separates source summaries from proven campaign observations. Inspect blocked joins and unavailable cells before claiming campaign lead quality or a paid-sale cost. Keep the original source reader below for its own evidence and follow-up.
+
 ### Toolbox by stage
 
 | Stage | Actual tools and useful result |
@@ -23,7 +25,9 @@ When the actual installed catalog exposes `get_crm_source_status`, `capture_crm_
 
 Use the actual source capture tool with a new command key, exact active connection/generation and chosen scope. Admission returns a durable job immediately; wait/read that job through the actual catalog. A waiting/running job is not a fresh publication. Repeat the same command/input to recover its receipt, without a new consent question; stale generation requires current status. On completion read the exact publication and retain its id/digest, mapping, scope, capture interval and separate deal/payment/buyer coverage. Failed acquisition never means zero deals; a partial publication reports observed groups and missing coverage. The old `get_crm_publications` human-import list is a different source and cannot resolve this locator.
 
-Sales can choose a creation window for an inquiry-processing question or all_visible_category to inspect available current deal context. Lifecycle uses all_visible_category because old deals can receive new payments; cap50 and remaining pagination leave it partial. Current P/S/F stages mean open/successful/unsuccessful, not qualification, stage-entry or response SLA. Display the observed stage groups separately from marked CRM payment groups; use no campaign attribution without linkage.
+Sales can choose a creation window for an inquiry-processing question or all_visible_category to inspect available current deal context. Lifecycle uses all_visible_category because old deals can receive new payments. Capture follows bounded pagination up to 500 deals; a remaining page or incomplete payments leaves coverage partial. Current P/S/F stages mean open/successful/unsuccessful, not qualification, stage-entry or response SLA. Display the observed stage groups separately from marked CRM payment groups; use no campaign attribution without linkage.
+
+For calendar payment questions, select the exact all-visible CRM publication in the marketing data matrix. Read `fully_paid_orders_period` by the first fully-paid threshold date separately from `gross_paid_amount_<currency>` by payment occurrence date. An instalment can contribute money without completing an order, and an old deal can receive a payment in the current period. Preserve currency, calendar, receipt as-of and coverage; incomplete or unproven evidence remains unavailable. CRM-marked payment does not prove bank settlement, refunds, net revenue or an advertising campaign connection.
 
 The accepted payment rule is full CRM-marked paid amount in the deal currency reaching its positive agreed deal amount, with required dates and complete payment pages. A successful stage does not prove payment; a deposit does not prove a fully paid purchase. Missing payment fields/date/currency/coverage remain unknown. CRM markings do not prove bank settlement, refunds, shipment, profit or causation. Cohort exactness requires the private Lifecycle server port and its completeness/rule/namespace gates; do not obtain buyer/order keys in chat or infer first-ever buyers from a short observed history. Channel/consent/suppression remain separate prerequisites.
 

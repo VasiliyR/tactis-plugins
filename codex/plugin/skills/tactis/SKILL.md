@@ -12,6 +12,8 @@ For «Что умеет Tactis?» or a general request for examples, read [usefu
 
 For project goals, numeric targets, business parameters, source bindings and progress, read [project goals](references/project-goals.md). These are the shared priorities for chat, cabinet, agents and the data worker.
 
+At connected entry, return to saved work and before a material decision, check the brief's `attention`. Read relevant backend signals and save your response through [project signals](references/project-signals.md). A signal identifies evidence to consider within the user's task; it does not require a full audit or authorize an external action.
+
 For real files, sharing, imports/planning, CRM, finite monitoring, audiences and feed/Webmaster work, read [the ten platform scenarios](references/platform-workflow.md) when entering that task. Reuse exact saved versions and current permissions.
 
 Present ordinary analysis in chat. For advertising charts, comparisons and analytical tables, use [Tactis visual analysis](../tactis-visual-analysis/SKILL.md). Create separate reports or exports only when the user requests them; recording Work and evidence does not require generating a document.
@@ -28,6 +30,7 @@ Use a short route when it answers the question. Open the matching product proced
 | New client / «С чего начать?» | [Onboarding](references/onboarding.md): recover existing choices and sources, deliver and save the first useful result. A new client does not require a full audit. |
 | Several clients / positioning or offer | [Portfolio and offer](references/portfolio-offer.md): authorized per-client scopes or a grounded offer hypothesis and first material; no invented aggregate reader or market claim. |
 | Continue saved work | Read the relevant full head and exact material through [durable continuation](references/durable-continuation.md). Known Work uses `get_work_session(project_id, work_session_id)`; older material is discovered through `get_work_session(project_id, collection="work_sessions", ...)`. |
+| A backend observation needs attention | [Project signals](references/project-signals.md): read the exact monitoring or goal observation, check its current relevance, then save a reasoned `signal_responses` entry with exact evidence. |
 | Choose a marketing priority or growth programme across tasks | [Growth](references/growth-workflow.md): select the supported constraint, a feasible programme and first material; enter the relevant subject procedure only for that stage. |
 | Files, galleries, cross-channel imports/media plans, CRM/offline, finite monitoring, audiences or feeds/Webmaster | [Ten platform scenarios](references/platform-workflow.md): actual tools, exact versions, secure setup and effect boundaries. |
 | Return regularly to agreed work | [Automation](references/automation-workflow.md): retain the instruction and useful due result; actual scheduling depends on the host. An unverified schedule is not an active recurring assignment. |
