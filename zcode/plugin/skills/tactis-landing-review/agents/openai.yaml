@@ -2,3 +2,6 @@ interface:
   display_name: "Tactis Ads: посадочная страница"
   short_description: "Разбор страницы и точная первая правка"
   default_prompt: "Используй $tactis-landing-review, чтобы разобрать мою посадочную страницу и подготовить первую точную правку с проверкой результата."
+  icon_small: "./assets/tactis-icon.svg"
+  icon_large: "./assets/tactis-icon.svg"
+  brand_color: "#6156DC"

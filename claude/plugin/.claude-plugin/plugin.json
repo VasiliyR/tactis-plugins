@@ -6,6 +6,7 @@
   "description": "Задачи маркетинга через чат: готовые материалы, анализ данных, память бизнеса и продолжение работы.",
   "displayName": "Tactis Ads",
   "homepage": "https://tactis.ru",
+  "icon": "https://tactis.ru/product/assets/tactis-mark-128.png",
   "keywords": [
     "Яндекс Директ",
     "Яндекс Метрика",
@@ -18,5 +19,5 @@
   "mcpServers": "./.mcp.json",
   "name": "tactis",
   "skills": "./skills/",
-  "version": "1.14.0"
+  "version": "1.14.1"
 }
