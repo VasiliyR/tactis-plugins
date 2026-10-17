@@ -27,6 +27,14 @@ Set current Work `business_generation` from the brief/context. The first head us
 
 Use `summary` for the useful result and `next_step` for the next check. `memory_presentation` is optional display copy; its assumption IDs must still name actual uncertain hypotheses. Keep complete material in the supported Work body or an exact-readable saved material. Do not store credentials, transcripts or private reasoning. Significant unsupported conclusions remain uncertain with limitations and a concrete revisit condition. Existing snapshot limits remain in force: 40 entries and 32768 canonical UTF-8 bytes. Explicitly archive resolved work instead of silently dropping active decisions to fit.
 
+### Fit the command before saving
+
+Read the actual `record_work_session` input schema before composing a large Work; use `get_tool_contract` when the native declaration is incomplete. `summary` is the concise result, not the full report, JSON payload or repeated evidence inventory. Aim for at most 1500 Unicode characters, within the actual schema maximum (currently 4000). Count the final text before the call and check the complete command's required fields, per-field lengths and item limits against that schema.
+
+Keep exact evidence in `foundation_refs`/`platform_refs`, caveats in `limitations`, and the next check in `next_step`, within their own schema limits. Preserve a complete chosen material in its supported body or an exact-readable saved material and retain its reference. Do not drop references, uncertainty or the decision criterion to shorten the summary. Remove duplicated prose and rewrite semantically; do not slice an overlong string or use memory, profile or continuation fields merely as overflow storage.
+
+If the command does not fit, revise it before sending. An input-schema rejection before admission has not saved the result; correct the rejected arguments within the same task and current authority. An uncertain transport outcome instead follows the exact original key/payload recovery procedure below. Field checks do not replace current-reference, rights or continuation checks at admission.
+
 A successful `record_work_session` returns a committed saved receipt: Work ID, original command digest/key and, when updated, `admitted_head` with its revision and snapshot digest. This confirms the accepted save and scope. **Do not perform routine exact Work and head reads after it.** The admitted head describes that save; an old replay does not claim to be today's current head. Use `response_mode="full"` only when the full returned body is actually needed.
 
 On a head/context/generation conflict, read the current state, reconcile meaning and submit a new command on that base. On an unknown transport outcome, replay the same original key/payload before any new identity. Replays cannot rewind a later head. If saving failed or remains unresolved, explain it; routine successful saving stays silent.
