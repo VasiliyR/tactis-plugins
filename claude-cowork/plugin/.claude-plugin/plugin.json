@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Tactis",
+    "url": "https://tactis.ru"
+  },
+  "description": "Задачи маркетинга через чат: готовые материалы, анализ данных, память бизнеса и продолжение работы.",
+  "displayName": "Tactis Ads",
+  "homepage": "https://tactis.ru",
+  "keywords": [
+    "Яндекс Директ",
+    "Яндекс Метрика",
+    "реклама",
+    "кампании",
+    "аналитика",
+    "отчёты",
+    "агентства"
+  ],
+  "mcpServers": "./.mcp.json",
+  "name": "tactis",
+  "repository": "https://github.com/VasiliyR/tactis-plugins",
+  "skills": "./skills/",
+  "version": "1.16.0"
+}

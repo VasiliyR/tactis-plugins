@@ -1,12 +1,12 @@
 {
-  "adapter_version": "0.3.0-rc.19",
-  "common_digest": "3cf216d5e707e048a82c5b671f187c0fc6636e112cc697b6bc4995aea14cea16",
+  "adapter_version": "0.3.0-rc.20",
+  "common_digest": "7c6e68384a246a20f6ae0c5a7fbbce6afe08a12ab3efdb1a07317390356e162d",
   "digest_algorithm": "sha256-normalized-payload-map.1",
   "files_sha256": {
     "NESSY.md": "6d44dd1cee0315c15d7184dfbc240af0499503774174ad74b5b2afb081cc9722",
-    "README.md": "db169d174b3dfcb591cedd6b0171e8053c416a4405fac6e6f97cacafac64d0d1",
+    "README.md": "f20f37d7773e5774d8070b9ec10e9d769a98c505ccc2818b419912709b786449",
     "methodology.json": "aa45776eec3f2f598d78c61155eec06642a00769b596d870c7338ef24bb75108",
-    "nessy-extension.json": "6989e8145b4e6e63bcf91ec5bbc661bcfbfd63bcb29cde720ad7364b8ea43a2a",
+    "nessy-extension.json": "c9284202a20befa2b097674fcb63ce4caaceaa88009e288600322f81d38643ba",
     "skills/tactis-ad-copy/SKILL.md": "76b0488ac2858fa99fed58771bff6595992581ba0f05818662b1dd4dad13bb20",
     "skills/tactis-ad-copy/agents/openai.yaml": "9ff4520db412a0e43b39de6bacf39389f7e54bf1a7f47e4a4ce225216ac4f6a1",
     "skills/tactis-ad-copy/assets/tactis-icon.svg": "ab9e630de3def27296eed1a607b70a923bf7c0b106fbd1ae652832e16fc35f6d",
@@ -62,7 +62,7 @@
     "skills/tactis/references/optimization-recipes.md": "698c19dd32a2374e3ceed1fd9ed93e070c2ad4976bbc65159c9d140771a3dd35",
     "skills/tactis/references/performance-diagnosis.md": "7a22a6a042e9788bd5ad3f12b7e1de6450e6812b9469c51add0c9b1b97acf55f",
     "skills/tactis/references/platform-workflow.md": "1c5828bca53271abee7cd7c0cda8228b9eb1bd3c31130ded2776c3f655830a24",
-    "skills/tactis/references/plugin-updates.md": "84c5dad39151ec96c522768b48ad15b1c63f46dc69bd52ef6533cd25e0923c7e",
+    "skills/tactis/references/plugin-updates.md": "96a5599f4a585b283262eeef06d9e52df3ef9098f4460225c23ce2eaf1e45c28",
     "skills/tactis/references/portfolio-offer.md": "d8bfb5ca4ceb6ba816cb142ad8571da866d04b291b3014ab30d50c471198cac3",
     "skills/tactis/references/proactive-delivery.md": "2bda69cd8b741f473d9297e64da8ae422f77431ba464b75208d51c6c89dd4779",
     "skills/tactis/references/profiled-reasoning.md": "7633c0da7537e4b7ff67761bf7b4d90f4f46dc2f5304eeb42d7850d9a95f3551",
@@ -89,7 +89,7 @@
   },
   "host": "nessy",
   "methodology_version": "tactis-method-0.4",
-  "package_digest": "3d42239bf81865401fdee9f2beb121d13c072777c9e051b59a21db838e19b8a1",
-  "package_version": "1.15.0",
+  "package_digest": "023e4a735d6465f6016334f4c0d08969f6a554286f25f0551e989ab5275e2c66",
+  "package_version": "1.16.0",
   "schema": "tactis.package.1"
 }

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tactis Ads: аудит рекламы"
+  short_description: "Причины ухудшения и конкретные улучшения рекламы"
+  default_prompt: "Используй $tactis-ads-audit, чтобы разобрать результаты моей рекламы и подготовить обоснованный первый шаг улучшения."
+  icon_small: "./assets/tactis-icon.svg"
+  icon_large: "./assets/tactis-icon.svg"
+  brand_color: "#6156DC"

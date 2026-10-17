@@ -3,7 +3,7 @@
     "name": "Tactis",
     "url": "https://tactis.ru"
   },
-  "description": "Tactis — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
+  "description": "Tactis Ads — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
   "homepage": "https://tactis.ru",
   "keywords": [
     "Яндекс Директ",
@@ -17,5 +17,5 @@
   "mcpServers": "./.mcp.json",
   "name": "tactis",
   "skills": "./skills/",
-  "version": "1.15.0"
+  "version": "1.16.0"
 }

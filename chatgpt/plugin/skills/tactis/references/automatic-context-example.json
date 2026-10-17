@@ -1,0 +1,12 @@
+{
+  "command_key": "synthetic-direct-business-facts",
+  "project_id": "p_demo",
+  "memory_version": 1,
+  "goal_version": 1,
+  "expected_business_generation": 1,
+  "mode": "amend",
+  "business": "Ремонт оборудования",
+  "audience": "Небольшие компании",
+  "region": "Казань",
+  "limitations": "Обслуживаем только юридические лица"
+}

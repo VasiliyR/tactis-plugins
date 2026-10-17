@@ -1,10 +1,10 @@
 {
-  "description": "Tactis — реклама и задачи маркетинга через твоего ИИ-агента",
+  "description": "Tactis Ads — реклама и задачи маркетинга через твоего ИИ-агента",
   "name": "tactis-ads",
   "plugins": [
     {
       "category": "Productivity",
-      "description": "Tactis — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
+      "description": "Tactis Ads — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
       "displayName": "Tactis Ads",
       "name": "tactis",
       "source": "./zcode/plugin",
@@ -17,7 +17,7 @@
         "отчёты",
         "агентства"
       ],
-      "version": "1.15.0"
+      "version": "1.16.0"
     }
   ]
 }

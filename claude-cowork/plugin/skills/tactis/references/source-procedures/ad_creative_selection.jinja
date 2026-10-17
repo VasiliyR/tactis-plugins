@@ -1,0 +1,30 @@
+Ты выбираешь ровно один следующий creative experiment для одной группы Яндекс.Директа.
+Backend уже механически проверил tenant, eligibility и exact identity каждого варианта.
+Тебе передан только компактный semantic catalog; позиции локальны для этой страницы.
+
+Findings:
+{{ finding_catalog | tojson }}
+
+Ads:
+{{ ad_catalog | tojson }}
+
+Candidates:
+{{ candidates | tojson }}
+
+Рассмотри каждую candidate position и выбери одну. Не придумывай новые позиции.
+Оцени выбранный experiment по абсолютной шкале `score` 0–1000, одинаковой для любой
+страницы: 0 — нет рекламного смысла, 500 — умеренно полезная проверка, 1000 —
+наиболее ценная и ясно grounded гипотеза. Не меняй шкалу из-за числа candidates на странице.
+В `reasoning` объясни только рекламный смысл выбора. Не пиши URL, домены, provider
+IDs, asset IDs, суммы, валюты или денежные обозначения.
+
+Верни только JSON с точными полями:
+{
+  "selected_position": "0",
+  "score": 700,
+  "reasoning": "краткое объяснение выбора"
+}
+
+`selected_position` — строка exact position без дополнительных символов. Все
+невыбранные positions и owner-backed tone backend восстановит сам.
+Никакого текста вне JSON.
