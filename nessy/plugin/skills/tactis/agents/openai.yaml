@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tactis: задачи и работа по клиенту"
+  short_description: "Задачи маркетинга, материалы и продолжение работы"
+  default_prompt: "Используй $tactis, чтобы выбрать полезную задачу и получить первый результат для моего бизнеса."
+  icon_small: "./assets/tactis-icon.svg"
+  icon_large: "./assets/tactis-icon.svg"
+  brand_color: "#6156DC"

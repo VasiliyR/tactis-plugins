@@ -1,0 +1,21 @@
+# Connect a source, obtain its first result and return to chat
+
+Use this procedure when the user needs a source that is absent, expired or not yet configured. Start with [session entry](session-entry.md) and `get_connector_catalog(project_id)`. The catalog is a read of saved connection state; opening settings does not collect a fresh marketing result or authorize a provider write.
+
+The cabinet's **Подключения** page is the human control surface. Link the selected card's actual `settings_url`. It describes prerequisites, supported data, setup steps, safe settings and current connection state. The user connects or repairs access there; the marketing task continues in chat. Never request a password, webhook, OAuth code, API key or token in chat or MCP arguments. A project may start without an advertising account; do not create a fake Direct account for a CRM, counter, site or demand source.
+
+| Source | Human setup | Next useful step in chat |
+| --- | --- | --- |
+| Direct | Authorize Yandex, select the actual advertiser and supported native scope; existing Direct connection flow controls read/write permissions. | Read the current source scope and grants, then the requested advertising facts or supported operations. |
+| Metrika | Authorize the separate read connection, select an accessible counter and optional goal. A Direct account is not required. | For standalone page observations use the returned connection ID as `source_binding_id`, omit `account_id`, and use `capture_page_observation` followed by `get_page_observation`. Preserve `standalone_counter` origin; never invent a Direct configuration publication. |
+| Bitrix24 Cloud | Paste an existing incoming CRM webhook into the secure form, select the pipeline/category and buyer identity rules. Account binding is optional. | Capture CRM data, follow its job and read the publication; use Lifecycle only when the source supplies its required buyer evidence. |
+| amoCRM | Authorize the configured Tactis application, choose the account's pipeline and qualification/won statuses. | `capture_source_data` → `get_source_command` → `get_source_publication`; distinguish qualified, won and paid. |
+| Calltouch | Enter site ID and an existing API token in the secure form. | Capture and inspect calls/forms with the actual period and coverage. |
+| Yandex Audience | Authorize the separate Audience connection and verify the owner login. | Save an audience segment, prepare its exact activation, apply only with applicable consent, then check provider processing. |
+| Webmaster | Authorize access and select a verified site returned by the provider. | Capture Webmaster facts and read the exact snapshot; do not treat it as site publishing. |
+| Offline Metrika | Authorize read/write access, choose a writable counter and its event targets. | Upload a private CSV material, prepare mapped events, then separately authorize exact delivery and check processing. |
+| Wordstat demand | Enter Yandex Cloud folder ID and a service-account Search API key; explicitly accept provider charges for the connection probe. | Acquire the requested demand publication and inspect coverage. Search query counts are not ad impressions or promised sales. |
+
+OAuth connection buttons work only when the operator has registered and configured the corresponding Tactis application. An unavailable application requires that operator setup; do not tell the user that Direct consent also grants another service, or default to creating a private amoCRM integration. Advanced existing-token entry is distinct from managed OAuth. Provider credentials remain in server custody; rotating/reconnecting or revoking a connection is a human cabinet action. A returned setup success is not evidence of a successful capture.
+
+After the user completes setup, re-read the catalog and resume the original task. Use the actual connection ID, scope and supported owner tool. Read job/publication status and freshness before saying that data is ready. On expired access, point to the same source settings for recheck/reconnect; do not loop captures. On revocation, new provider work stops while authorized saved results remain available. Cabinet-to-chat context carries exact project, selected account and saved item locators; resolve those locators rather than choosing a similarly named client.

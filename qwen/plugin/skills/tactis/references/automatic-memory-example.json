@@ -1,0 +1,44 @@
+{
+  "project_id": "project_synthetic",
+  "command_key": "synthetic-first-useful-memory",
+  "kind": "assessment",
+  "summary": "Only supplied business material is available; the offer is a working hypothesis and sales remain unknown.",
+  "limitations": ["Synthetic example has no connected source evidence."],
+  "next_step": "Check which event represents a useful business result.",
+  "business_generation": 1,
+  "memory_presentation": {
+    "result_summary": "The supplied material suggests equipment repair; advertising performance and sales are not established.",
+    "current_focus": "Check the event definition before treating it as a useful lead.",
+    "business_assumption_entry_ids": ["business-offer"]
+  },
+  "continuation": {
+    "schema_version": "agent.continuation.1",
+    "account_id": "account_synthetic",
+    "expected_head_work_id": null,
+    "memory_version": 1,
+    "goal_version": 1,
+    "overview": "Offer is provisional; the next useful step is to establish event meaning.",
+    "entries": [
+      {
+        "entry_id": "business-offer",
+        "revision": 1,
+        "kind": "hypothesis",
+        "text": "The supplied material may describe equipment repair for local customers.",
+        "applicability": "current_state",
+        "state": "uncertain",
+        "limitations": ["The user has not supplied an explicit business fact; fixture material is not server evidence."],
+        "revisit_event": "next_completed_audit"
+      },
+      {
+        "entry_id": "event-meaning",
+        "revision": 1,
+        "kind": "open_question",
+        "text": "Which event represents a useful business result?",
+        "applicability": "current_state",
+        "state": "uncertain",
+        "limitations": ["No event definition or CRM evidence available."],
+        "revisit_event": "selected_goal_publication"
+      }
+    ]
+  }
+}

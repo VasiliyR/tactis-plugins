@@ -1,0 +1,22 @@
+{
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "tactis_ads": {
+      "headers": {
+        "X-Tactis-Adapter-Version": "0.3.0-rc.19",
+        "X-Tactis-Common-Digest": "3cf216d5e707e048a82c5b671f187c0fc6636e112cc697b6bc4995aea14cea16",
+        "X-Tactis-Methodology-Version": "tactis-method-0.4",
+        "X-Tactis-Package-Digest": "d3e4139768192ae55223ba5866273fbe0a2080d935c9a5cc1619e73974837d3d",
+        "X-Tactis-Package-Host": "qwen",
+        "X-Tactis-Package-Version": "1.15.0"
+      },
+      "httpUrl": "https://app.tactis.ru/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  },
+  "name": "tactis",
+  "skills": "skills",
+  "version": "1.15.0"
+}
