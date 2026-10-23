@@ -1,0 +1,37 @@
+{
+  "schema_version": "agent.continuation.1",
+  "account_id": "account_synthetic",
+  "expected_head_work_id": null,
+  "memory_version": 1,
+  "goal_version": 1,
+  "overview": "Traffic/spend remain readable, but the event meaning and CRM economics are unknown. No provider change is proposed.",
+  "entries": [
+    {
+      "entry_id": "business-event-meaning",
+      "revision": 1,
+      "kind": "hypothesis",
+      "text": "The selected technical event may be a button click; it is not established as a qualified lead.",
+      "rationale": "Business meaning requires exact event definition and CRM evidence.",
+      "applicability": "current_state",
+      "state": "uncertain",
+      "limitations": [
+        "Synthetic example has no server-resolved publication evidence.",
+        "CRM economics and event business meaning are unknown."
+      ],
+      "revisit_event": "selected_goal_publication"
+    },
+    {
+      "entry_id": "crm-economics",
+      "revision": 1,
+      "kind": "open_question",
+      "text": "What CRM evidence can establish qualified leads and sale economics?",
+      "rationale": "A technical event alone cannot establish profitability.",
+      "applicability": "current_state",
+      "state": "uncertain",
+      "limitations": [
+        "No CRM publication available."
+      ],
+      "revisit_event": "next_completed_audit"
+    }
+  ]
+}

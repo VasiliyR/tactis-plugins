@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tactis Ads: отчёты клиенту"
+  short_description: "Клиентский HTML/PDF из сохранённых результатов"
+  default_prompt: "Используй $tactis-client-report, чтобы подготовить клиентский отчёт о результатах и следующем решении по проекту."
+  icon_small: "./assets/tactis-icon.svg"
+  icon_large: "./assets/tactis-icon.svg"
+  brand_color: "#6156DC"

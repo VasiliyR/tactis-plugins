@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Tactis",
+    "url": "https://tactis.ru"
+  },
+  "description": "Tactis Ads — задачи маркетинга, данные, материалы и память бизнеса в твоём чате.",
+  "homepage": "https://tactis.ru",
+  "keywords": [
+    "Яндекс Директ",
+    "Яндекс Метрика",
+    "реклама",
+    "кампании",
+    "аналитика",
+    "отчёты",
+    "агентства"
+  ],
+  "name": "tactis",
+  "version": "1.24.26"
+}

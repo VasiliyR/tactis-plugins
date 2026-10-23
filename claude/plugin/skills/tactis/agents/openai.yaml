@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tactis: партнёр по маркетингу"
+  short_description: "Цели проекта, полезная работа и продолжение решений"
+  default_prompt: "Используй $tactis, чтобы разобраться в моём бизнесе, согласовать цели проекта и выполнить первую полезную маркетинговую задачу."
+  icon_small: "./assets/tactis-icon.svg"
+  icon_large: "./assets/tactis-icon.svg"
+  brand_color: "#6156DC"

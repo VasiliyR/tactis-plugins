@@ -1,0 +1,2 @@
+# Preserve canonical package bytes on every host.
+* -text

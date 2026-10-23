@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tactis Ads: рекламные тексты"
+  short_description: "Концепции и готовые тексты объявлений"
+  default_prompt: "Используй $tactis-ad-copy, чтобы подготовить рекламные тексты под цели проекта и сохранить выбранную версию."
+  icon_small: "./assets/tactis-icon.svg"
+  icon_large: "./assets/tactis-icon.svg"
+  brand_color: "#6156DC"

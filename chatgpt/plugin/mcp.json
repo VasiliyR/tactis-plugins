@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "tactis_ads": {
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "client": {
+              "mode": "dcr"
+            },
+            "type": "oauth"
+          }
+        }
+      },
+      "type": "streamable-http",
+      "url": "https://app.tactis.ru/mcp/cloud/chatgpt/1.24.26/tactis-method-0.4/0.3.0-rc.20/b81cee0fa38c0c6e926a27929dd645d181d6d73f27840e2ca677329adf133606/924b02c5d6dce07b8652fae597c7bb60c66abae72585bdd677e84e301d5a6f72"
+    }
+  }
+}

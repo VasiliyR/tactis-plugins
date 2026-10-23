@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "displayName": "Tactis Ads"
+  },
+  "name": "tactis-ads",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "description": "Развивай маркетинг с партнёром, который помнит цели проекта, готовит материалы и проверяет результат.",
+      "name": "tactis",
+      "policy": {
+        "authentication": "ON_USE",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./codex/plugin",
+        "source": "local"
+      },
+      "version": "1.24.26"
+    }
+  ]
+}

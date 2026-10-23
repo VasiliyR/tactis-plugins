@@ -1,0 +1,16 @@
+{
+  "name": "tactis-ads",
+  "owner": {
+    "name": "Tactis",
+    "url": "https://tactis.ru"
+  },
+  "plugins": [
+    {
+      "description": "Задачи маркетинга через чат: готовые материалы, анализ данных, память бизнеса и продолжение работы.",
+      "displayName": "Tactis Ads",
+      "name": "tactis",
+      "source": "./claude/plugin",
+      "version": "1.24.26"
+    }
+  ]
+}

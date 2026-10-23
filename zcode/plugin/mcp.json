@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "tactis_ads": {
+      "headers": {
+        "X-Tactis-Adapter-Version": "0.3.0-rc.20",
+        "X-Tactis-Common-Digest": "b81cee0fa38c0c6e926a27929dd645d181d6d73f27840e2ca677329adf133606",
+        "X-Tactis-Methodology-Version": "tactis-method-0.4",
+        "X-Tactis-Package-Digest": "52df83aa06460d81d64ddf5ca1f83f3f7084f3670c99b816225358fe2a3e6d70",
+        "X-Tactis-Package-Host": "zcode",
+        "X-Tactis-Package-Version": "1.24.26"
+      },
+      "type": "streamable-http",
+      "url": "https://app.tactis.ru/mcp"
+    }
+  }
+}
