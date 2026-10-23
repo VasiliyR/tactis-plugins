@@ -1,13 +1,13 @@
 {
   "adapter_version": "0.3.0-rc.20",
-  "common_digest": "b81cee0fa38c0c6e926a27929dd645d181d6d73f27840e2ca677329adf133606",
+  "common_digest": "7cec83f515b37e20670477a67013c9f9e9848be16dd437e57244a12bf24b908b",
   "digest_algorithm": "sha256-normalized-payload-map.1",
   "files_sha256": {
-    ".claude-plugin/plugin.json": "89c8c60de173fe3458838624f6696f8f79062c77c4329a906d73e92af225d8d0",
-    ".mcp.json": "8fec4281578f35cc3e7d44a22518efaa06054f595fa191200ea7f843dfa7d2cd",
+    ".claude-plugin/plugin.json": "b339069958b5cf70776c235e04f27f32db25fa4b11ba242955386ee051e48683",
+    ".mcp.json": "53bbe57d852f6c032fd2e2a479a8e27f5c3d7e13c5bd4b168d127a12cddff0aa",
     "README.md": "b14ef62a75b017138c22d133bca44c4535224a512a9de4c3e2e82a29ce49a14b",
     "assets/tactis-icon.svg": "ab9e630de3def27296eed1a607b70a923bf7c0b106fbd1ae652832e16fc35f6d",
-    "methodology.json": "f4d193417475ba40cc03f2ebb0635decb2102e07ae596d841d7a4e74797fb223",
+    "methodology.json": "b35fcaa0c1f481202fcb9abca960e004296278a7fbdcde4b7e6e2f3a81cf2051",
     "skills/tactis-ad-copy/SKILL.md": "857260b7d2bd74d754b31d2d4dc18b9216855d556fab55258c17ff3c12f9f013",
     "skills/tactis-ad-copy/agents/openai.yaml": "2c7f12e3fed6afbcb94f4d796f4926a3b362aae799d435cc4784e03a9e39671e",
     "skills/tactis-ad-copy/assets/tactis-icon.svg": "ab9e630de3def27296eed1a607b70a923bf7c0b106fbd1ae652832e16fc35f6d",
@@ -60,7 +60,7 @@
     "skills/tactis/references/marketing-data-matrix.md": "af905add88bf3819f93384672f919edbd6252fb90cddd093a7f247fb0eab8192",
     "skills/tactis/references/marketing-review.md": "ac1a1e5dfcf36c7272e82b8e6dcae3f9e9da3a341d241c1dff8daede32d33b91",
     "skills/tactis/references/mcp-connection.md": "7e061e77cc913051dd59d566935b12509e9ac1ac574ddcd9ff72f7e779365063",
-    "skills/tactis/references/mvp-workflow.md": "8a8c2e36df8ce541b8b691b8041321ff373d2e85513a5a3f6095b06b2d0993c9",
+    "skills/tactis/references/mvp-workflow.md": "ee599f91024cd371e338ddc139f2d3aba9caae464e73edfad37d144d503c2337",
     "skills/tactis/references/onboarding.md": "b170463944cf88c3aa8f50b131091b6601b3e1009eb98c60f9f30328846f59df",
     "skills/tactis/references/optimization-recipes.md": "7b19a80591da07759dd2acb00f1e38807ea38ed81e233be8528ba0028902fdac",
     "skills/tactis/references/performance-diagnosis.md": "e7cbb9524bc63c7e47a4dc2400ea4865aa7388ef751b47990654830b09377863",
@@ -102,7 +102,7 @@
   },
   "host": "claude-cowork",
   "methodology_version": "tactis-method-0.4",
-  "package_digest": "245388d6a3e24bd91410a4a9db939bdf22c8fc9aa70735398679f82428aac165",
-  "package_version": "1.24.26",
+  "package_digest": "51808638aad0e39098373866851a27772563a9638ca1e35997f5e86491c90ddd",
+  "package_version": "1.24.27",
   "schema": "tactis.package.1"
 }

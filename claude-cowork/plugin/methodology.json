@@ -136,7 +136,6 @@
     "get_connector_catalog",
     "get_project_diary",
     "get_report_publication",
-    "list_report_publications",
     "get_project_connections",
     "list_metrika_log_exports",
     "get_metrika_log_export_summary",

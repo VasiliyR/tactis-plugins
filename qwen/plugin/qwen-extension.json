@@ -8,11 +8,11 @@
     "tactis_ads": {
       "headers": {
         "X-Tactis-Adapter-Version": "0.3.0-rc.20",
-        "X-Tactis-Common-Digest": "b81cee0fa38c0c6e926a27929dd645d181d6d73f27840e2ca677329adf133606",
+        "X-Tactis-Common-Digest": "7cec83f515b37e20670477a67013c9f9e9848be16dd437e57244a12bf24b908b",
         "X-Tactis-Methodology-Version": "tactis-method-0.4",
-        "X-Tactis-Package-Digest": "1d734c8e6ac27b352ccb4b8857bc17fc8f2c82e64a1edfde3c2304fe640f275c",
+        "X-Tactis-Package-Digest": "e6c02eb3141a4e3d655b3c87c2b79362d686b50e60681672010f36bb627c11f4",
         "X-Tactis-Package-Host": "qwen",
-        "X-Tactis-Package-Version": "1.24.26"
+        "X-Tactis-Package-Version": "1.24.27"
       },
       "httpUrl": "https://app.tactis.ru/mcp",
       "oauth": {
@@ -22,5 +22,5 @@
   },
   "name": "tactis",
   "skills": "skills",
-  "version": "1.24.26"
+  "version": "1.24.27"
 }
