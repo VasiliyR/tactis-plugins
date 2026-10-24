@@ -4,11 +4,11 @@
     "tactis_ads": {
       "headers": {
         "X-Tactis-Adapter-Version": "0.3.0-rc.20",
-        "X-Tactis-Common-Digest": "a71fb0d5b5a9312bbcb56d4a51da5b7930d145bbf205a1641543cd269cb5474e",
+        "X-Tactis-Common-Digest": "d3852fb6ecd7cf5b049eae48c5ed343c808b5a8de360c958a4fc9e4fdca25500",
         "X-Tactis-Methodology-Version": "tactis-method-0.4",
-        "X-Tactis-Package-Digest": "59b1f74b04eb9a1ebd7ba82282a1780ca9ab552d62f6da3abe85a30eebe3bdab",
+        "X-Tactis-Package-Digest": "0534d72edd02f0cbd286ca2730b71622179ecc07e732df47776d547d4174f6b6",
         "X-Tactis-Package-Host": "claude",
-        "X-Tactis-Package-Version": "1.24.33"
+        "X-Tactis-Package-Version": "1.24.34"
       },
       "type": "streamable-http",
       "url": "https://app.tactis.ru/mcp"

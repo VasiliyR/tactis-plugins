@@ -1,12 +1,12 @@
 {
   "adapter_version": "0.3.0-rc.20",
-  "common_digest": "a71fb0d5b5a9312bbcb56d4a51da5b7930d145bbf205a1641543cd269cb5474e",
+  "common_digest": "d3852fb6ecd7cf5b049eae48c5ed343c808b5a8de360c958a4fc9e4fdca25500",
   "digest_algorithm": "sha256-normalized-payload-map.1",
   "files_sha256": {
     "QWEN.md": "6d3858530f26600de730f7b8bc38b375e7cda010b1a0e65dbcebad38cb4833bf",
     "README.md": "a14a903e777ddd651c0533665be906e8a699449584ba05dd29f53de8a43798d9",
     "methodology.json": "3b865f788956423a7981821cb1169787327182e624d9844e8250833a678e8e64",
-    "qwen-extension.json": "da4a6243afa63dd7665e2d3dc76c5ec29eb42e3afcd7092832d96230d091b521",
+    "qwen-extension.json": "e3bff5fdb62acf24a9597c0dd30dfa47fa833acdc741c268d0a098927df1bdee",
     "skills/tactis-ad-copy/SKILL.md": "857260b7d2bd74d754b31d2d4dc18b9216855d556fab55258c17ff3c12f9f013",
     "skills/tactis-ad-copy/agents/openai.yaml": "6290d0f9b4969d710888df441492fca8ddb3c300928c058b5f6a98d3bf7635b9",
     "skills/tactis-ad-copy/assets/tactis-icon.svg": "ab9e630de3def27296eed1a607b70a923bf7c0b106fbd1ae652832e16fc35f6d",
@@ -50,7 +50,7 @@
     "skills/tactis/references/copy-drafting.md": "5ad73b0134c2f6050693a05d96e519f4327f80c4eb05a0d56f90df0eac41a87e",
     "skills/tactis/references/creative-package-example.md": "e30f67e810d1d528308a11c4c4e62969f16dd1ac662049a0551432e9364a8e74",
     "skills/tactis/references/creative-workflow.md": "fb75c42f60692be055ef82a15d36493c65bbbf91d3ef6a35b57d43af329c538d",
-    "skills/tactis/references/current-actions.md": "96bc4c7798b34143f43a9e43ecc8ac59f6166b1a8aca1224d2cfac80702e2cef",
+    "skills/tactis/references/current-actions.md": "6ec61399b2c67aa513253e209b1ca22e5a469cf9e9877dbbf99516f994fc30ba",
     "skills/tactis/references/durable-continuation.md": "c5e9262be04ab55a2148f602e974cfa7084650794f7a63680fd77d4457ea0973",
     "skills/tactis/references/experiments-workflow.md": "9e73bbce379017819978988a78d172373b774e60710692ab9ff1dce9c6956d08",
     "skills/tactis/references/foundation-reads.md": "1652f0085aed2c211de6e376ecc820c57e5f947804d8527e06503ab8d4ed1129",
@@ -103,7 +103,7 @@
   },
   "host": "qwen",
   "methodology_version": "tactis-method-0.4",
-  "package_digest": "16d243109ae22e75e81981547ae2bfe87d398a04feda3e5d80574fd8fbb5e23d",
-  "package_version": "1.24.33",
+  "package_digest": "547413d450ee168a72e0a6a06f3e2530e322d454f35a92ece431c3bda0767b57",
+  "package_version": "1.24.34",
   "schema": "tactis.package.1"
 }

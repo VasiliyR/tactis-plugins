@@ -1,10 +1,10 @@
 {
   "adapter_version": "0.3.0-rc.20",
-  "common_digest": "a71fb0d5b5a9312bbcb56d4a51da5b7930d145bbf205a1641543cd269cb5474e",
+  "common_digest": "d3852fb6ecd7cf5b049eae48c5ed343c808b5a8de360c958a4fc9e4fdca25500",
   "digest_algorithm": "sha256-normalized-payload-map.1",
   "files_sha256": {
-    ".claude-plugin/plugin.json": "c0f8139a0492b1d348a17cf9edb0252083a5af4548c727f8bce4b20d42f5cad8",
-    ".mcp.json": "0a44d7926a6eaa8497e53dda2ed66a3fdda2002e833908875657fd27f70b818c",
+    ".claude-plugin/plugin.json": "ad7234e6f1b0fc35846252454a9e31333f2da1bcc275358bb3c1f935991ba7ac",
+    ".mcp.json": "0af70c5d6922bfed602bdeff65d3e8450b1976a417c7f5599fcfe1f3b6f1d561",
     "README.md": "b14ef62a75b017138c22d133bca44c4535224a512a9de4c3e2e82a29ce49a14b",
     "assets/tactis-icon.svg": "ab9e630de3def27296eed1a607b70a923bf7c0b106fbd1ae652832e16fc35f6d",
     "methodology.json": "3b865f788956423a7981821cb1169787327182e624d9844e8250833a678e8e64",
@@ -51,7 +51,7 @@
     "skills/tactis/references/copy-drafting.md": "5ad73b0134c2f6050693a05d96e519f4327f80c4eb05a0d56f90df0eac41a87e",
     "skills/tactis/references/creative-package-example.md": "e30f67e810d1d528308a11c4c4e62969f16dd1ac662049a0551432e9364a8e74",
     "skills/tactis/references/creative-workflow.md": "fb75c42f60692be055ef82a15d36493c65bbbf91d3ef6a35b57d43af329c538d",
-    "skills/tactis/references/current-actions.md": "96bc4c7798b34143f43a9e43ecc8ac59f6166b1a8aca1224d2cfac80702e2cef",
+    "skills/tactis/references/current-actions.md": "6ec61399b2c67aa513253e209b1ca22e5a469cf9e9877dbbf99516f994fc30ba",
     "skills/tactis/references/durable-continuation.md": "c5e9262be04ab55a2148f602e974cfa7084650794f7a63680fd77d4457ea0973",
     "skills/tactis/references/experiments-workflow.md": "9e73bbce379017819978988a78d172373b774e60710692ab9ff1dce9c6956d08",
     "skills/tactis/references/foundation-reads.md": "1652f0085aed2c211de6e376ecc820c57e5f947804d8527e06503ab8d4ed1129",
@@ -104,7 +104,7 @@
   },
   "host": "claude-cowork",
   "methodology_version": "tactis-method-0.4",
-  "package_digest": "0df1282f577375ed696506a9b3b925b0a6b37e24625f6d867a848450099129ab",
-  "package_version": "1.24.33",
+  "package_digest": "bfacdd6e36744b1800e38a359c5eb309dca1ba6d6b4d0c404bffb02947bd7ca0",
+  "package_version": "1.24.34",
   "schema": "tactis.package.1"
 }

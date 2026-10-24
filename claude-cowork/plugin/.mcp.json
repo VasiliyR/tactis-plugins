@@ -2,7 +2,7 @@
   "mcpServers": {
     "tactis_ads": {
       "type": "http",
-      "url": "https://app.tactis.ru/mcp/cloud/claude-cowork/1.24.33/tactis-method-0.4/0.3.0-rc.20/a71fb0d5b5a9312bbcb56d4a51da5b7930d145bbf205a1641543cd269cb5474e/0df1282f577375ed696506a9b3b925b0a6b37e24625f6d867a848450099129ab"
+      "url": "https://app.tactis.ru/mcp/cloud/claude-cowork/1.24.34/tactis-method-0.4/0.3.0-rc.20/d3852fb6ecd7cf5b049eae48c5ed343c808b5a8de360c958a4fc9e4fdca25500/bfacdd6e36744b1800e38a359c5eb309dca1ba6d6b4d0c404bffb02947bd7ca0"
     }
   }
 }
