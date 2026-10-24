@@ -8,6 +8,20 @@ Use the actual `record_work_session` input schema already supplied by the host; 
 
 Keep exact evidence in `foundation_refs`/`platform_refs`, caveats in `limitations`, and the next check in `next_step`, within their own schema limits. Preserve a complete chosen material in its supported body or an exact-readable saved material and retain its reference. Do not drop references, uncertainty or the decision criterion to shorten the summary. Remove duplicated prose and rewrite semantically; do not slice an overlong string or use memory, profile or continuation fields merely as overflow storage.
 
+Use the owner's exact fingerprint field, not a content hash or another publication's digest:
+
+| Work reference | Owner field copied into `fingerprint` |
+| --- | --- |
+| `foundation_refs`: `daygrain` | `partition_evidence_fingerprint` |
+| `foundation_refs`: `analysis`, `dossier`, `candidates` | `publication_fingerprint` |
+| `foundation_refs`: `operation_plan`, `crm_source` | `digest` |
+| `foundation_refs`: `assisted_experiment` | `plan.fingerprint` |
+| Other supported `foundation_refs` kinds | `fingerprint` |
+| `platform_refs`: `material` | `sha256`, with `account_id=null` |
+| `platform_refs`: `counter_metrics` | `fingerprint`, with `account_id=null`; not `provider_response_fingerprint` |
+
+Materials and whole-counter publications belong in `platform_refs`, not `foundation_refs`; retain them rather than dropping evidence. Fingerprint conflicts identify the array/index, exact reference and required owner field without returning private owner hashes. Reuse the matching manifest already read; only read its exact owner when that value is missing. A signal response additionally needs the signal's exact returned `evidence_ref` in `platform_refs`; an Analysis foundation does not replace that observation. Reuse that reference from the selected signal, or read `get_project_signal` only when it is missing.
+
 If the command does not fit, revise it before sending. An input-schema rejection before admission has not saved the result; correct the rejected arguments within the same task and current authority. An uncertain transport outcome instead follows the exact original key/payload recovery procedure below. Field checks do not replace current-reference, rights or continuation checks at admission.
 
 For `continuation_delta_invalid`, compare the rejected command with the current compact form: `continuation.mode="delta"`, full typed roots in the top-level reference arrays and exact reference keys inside entries. Keep expected head, revisions and unrelated carried entries intact. Removing continuation may save a standalone Work, but does not update the head; retain that saved Work and finish or report the pending head update without claiming the result was lost.
