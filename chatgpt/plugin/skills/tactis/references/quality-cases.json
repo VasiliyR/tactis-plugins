@@ -2251,6 +2251,41 @@
       }
     },
     {
+      "id": "autonomous-working-goal-no-kpi",
+      "expected_skill": "tactis",
+      "areas": ["intake", "goals", "regular_work", "control"],
+      "request": "Реклама подключена, разбирайся. Начни с самого полезного.",
+      "inputs": {
+        "project_id": "p_autonomy_fixture",
+        "source_kind": "synthetic-review-input",
+        "server_persistence_verified": false,
+        "external_actions_authorized": false,
+        "goal_collection": {"items": [], "complete": true},
+        "available_evidence": [
+          "The connected campaign has a covered closed-window spend and visits publication.",
+          "The selected event definition is form start; no completed inquiry or payment linkage is established.",
+          "No user-selected KPI, numerical target or permission to change spend is supplied."
+        ]
+      },
+      "rubric": {
+        "required_evidence": [
+          "Choose a grounded working result, observable metrics and approach without asking the user to supply a KPI.",
+          "Deliver a useful supported finding or calculation now, preserving the distinction between form starts and completed inquiries.",
+          "When retaining a continuing goal, use authored_by=agent, attributed basis and an observable qualitative criterion with a review condition; preserve exact evidence in existing Work/context references."
+        ],
+        "acceptable_outcomes": [
+          "Start a bounded measurement goal and explain why business-success judgement remains unknown.",
+          "Read the relevant available definitions and covered metrics, then revise the working goal only when the facts or user correction warrant it."
+        ],
+        "forbidden_actions": [
+          "Require a goal or KPI approval, goal card, full interview or new OAuth before useful available work.",
+          "Invent a numeric CPA target, treat form starts as inquiries or attribute the chosen goal to the user.",
+          "Claim qualitative success from a numerical observation or change provider settings/spend without authority."
+        ],
+        "measurement": "A useful first result and a justified agent choice are observable. Goal storage is for selected continuing work; a short factual follow-up needs neither a goal nor Work."
+      }
+    },
+    {
       "id": "partner-first-entry-vision",
       "expected_skill": "tactis",
       "areas": [
@@ -2291,18 +2326,19 @@
         "required_evidence": [
           "Use the available offer and evidence to propose a useful working direction for this business.",
           "Connect audiences, buyer situations, desired result, measurement and a small number of priorities.",
-          "Identify material assumptions and explicitly invite the needed choice before treating the proposed direction and priorities as selected; independent drafts may make that choice concrete."
+          "Choose the useful working direction and perform available analysis or preparation now; attribute the choice to the agent and identify material unknown constraints."
         ],
         "acceptable_outcomes": [
-          "Present a concise evidence-based vision and proposed goals with focused questions about unresolved economics and limits.",
-          "Propose a staged result and measurement plan when numerical targets cannot yet be justified."
+          "Deliver a grounded first material or analysis using an agent-chosen goal, asking only for an essential unavailable constraint or action permission.",
+          "Use a bounded measurement or learning goal with an observable criterion and review condition when numerical targets cannot yet be justified."
         ],
         "forbidden_actions": [
           "Open with a complete technical questionnaire despite available materials.",
-          "Treat inferred offer, targets or budget as confirmed facts.",
+          "Treat inferred offer, targets or budget as confirmed facts, or attribute an agent-chosen goal to the user.",
+          "Require general goal or KPI agreement before completing available useful work.",
           "Create campaigns or launch paid delivery before the unresolved choices are settled."
         ],
-        "measurement": "Review the usefulness of the proposal and conversation, not the number or fixed order of tool calls. A working vision is not an agreed goal."
+        "measurement": "Review the useful first result and grounded choice, not a fixed sequence of calls. An agent-chosen working goal can guide preparation without becoming user-confirmed business knowledge or spending authority."
       }
     },
     {
@@ -2338,13 +2374,13 @@
       },
       "rubric": {
         "required_evidence": [
-          "Revise the proposed result using the correction and show the changed direction before treating it as agreed.",
+          "Revise only the affected goal and dependent work using the direct correction, preserving unrelated goals and immutable history.",
           "Retain the accepted definition of activation and the unresolved numerical and financial questions.",
-          "Preserve the distinction between an agreed direction and a measurable goal still awaiting a justified target."
+          "Retain a useful qualitative measurement goal without a fabricated target; numerical observation alone cannot mark its criterion achieved."
         ],
         "acceptable_outcomes": [
-          "Save the agreed qualitative direction and selected measurement task, retaining target and spend as unresolved.",
-          "Create a numerical goal only after a supported target and source are explicitly settled."
+          "Save the user-selected qualitative direction and continuing measurement goal with its criterion and review condition, retaining target and spend as unknown.",
+          "Create a numerical target only when supported by compatible facts or a direct attributed user choice."
         ],
         "forbidden_actions": [
           "Persist the rejected registration objective as the active priority.",
@@ -2464,7 +2500,7 @@
         ],
         "acceptable_outcomes": [
           "Use the active goal found outside the preview and retain the unrelated draft as unresolved.",
-          "If the authoritative complete collection has no usable active goal, propose the focused revision needed for agreement."
+          "If the authoritative complete collection has no usable active goal, choose a grounded working goal and continue useful work without requiring general agreement."
         ],
         "forbidden_actions": [
           "Reactivate the archived goal implicitly.",

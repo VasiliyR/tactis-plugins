@@ -4,6 +4,71 @@ Metrika query-version 2 receipts use explicit `cross_device_last_significant` di
 
 Use a known exact locator directly. Read only the section needed by the question; a saved publication remains historical and every reader checks current authorized scope.
 
+## Wordstat demand
+
+For a search-demand question, reuse a relevant exact `get_demand_publication`, or
+call `acquire_demand` for one to fifty exact phrases with the known project,
+optional account, regions and devices. Tactis can provide service-managed
+Wordstat access: a configured service card requires no customer Cloud account,
+folder ID, API key or repeated Direct OAuth. Capture itself checks current
+authority; do not add a mandatory connector-status preflight. Own account or
+project keys retain their actual precedence, and an explicit revoked connection
+cannot be bypassed with service access or another account.
+After an explicit disconnect, the human manager can choose **Использовать доступ
+Tactis** in the same source settings to restore service access without Cloud
+credentials. A capture never clears revocation or switches their own selected key.
+
+Use `acquire_demand_dynamics` for separate calendar history with explicit dates
+and supported daily, weekly or monthly buckets. Every new request, including a
+single phrase, admits one durable batch to the existing data worker without
+waiting for provider reads. Keep its command key and exact
+inputs on replay. Read the returned batch id with `get_demand_publication` after
+both `next_due_at` and `retry_after_seconds` (five seconds for short commands,
+thirty for larger batches while pending). A lost response or a concurrent retry
+reuses that accepted command; never submit another key to work around a timeout.
+Exact replay of an older immutable publication can return that publication directly,
+or an exact JSON chunk whose `next` continues with `get_demand_publication`.
+Do not poll unchanged progress repeatedly or submit a replacement batch.
+The reader returns useful phrase counts or all calendar points/coverage, with
+whole-phrase pagination via `next_offset`; read the required pages, not fifty
+child publications. If a phrase would exceed the complete host display budget,
+its item explicitly has `response_omitted=true`: supplied totals/coverage are a
+projection, not the unread rows or calendar points. Follow that item's
+`read_original` only when the omitted evidence is needed. The same
+`get_demand_publication` reads the immutable child as ordinary exact JSON chunks:
+follow returned `next` arguments with `body_offset` and `wire_sha256`, concatenate
+the fragments unchanged and verify the final wire hash before claiming a full
+original. The wire hash is separate from the retained publication fingerprint.
+Large immutable reads can return a chunk immediately. Unread rows stay unknown;
+no new capture, Work or connector setup is needed to read them.
+`publication_id` and `publication_fingerprint` on each item
+are its immutable origins. Use selected child origins in Work foundation refs,
+`preview_demand_scenario` or `get_page_growth_evidence`; a batch id carries
+continuation, not measured single-phrase evidence. Saving Work is not required
+to continue a known batch id.
+
+Each worker step reads one phrase with current rights and credentials. The
+finite batch bounds cost to at most two HTTP attempts per phrase and expires
+after two hours. Wordstat's default provider quota is shared across customers;
+the fifty-phrase cap does not reserve quota. Rate/auth/setup denial stops the
+remaining phrases with zero attempts. An interrupted in-flight read without a
+saved receipt is unavailable, not silently repeated as another billable read.
+Already saved receipts survive restarts, revocation and restore. Offline restore
+stops pending batches with `backup_restore`; it never resumes paid service reads.
+A retained publication
+is immutable. Missing buckets and failed
+phrases remain unknown. `search_api_operator_setup_required` and
+`search_api_operator_authorization_denied` belong to Tactis configuration; report
+that limitation and continue the useful supported work instead of asking the
+client to create Cloud credentials. Respect `retry_after_seconds` after provider
+rate limiting; an unchanged denied source does not justify repeated capture.
+
+Trailing-30-day counts and calendar history have different source windows.
+Counts measure search queries, not unique people, ad impressions, buyers or
+sales. Do not sum overlapping phrases as market size. A scenario uses explicit
+CTR/CR/CPC assumptions and one complete trailing-30-day phrase; calendar history
+does not substitute for that input or establish causal seasonality.
+
 ## Retained statistics and coverage
 
 `get_current_daygrain(profile="campaign_primitives")` locates the separate automatic spend/clicks/impressions publication for 60 completed Moscow days. `profile="full_rolling"` locates the full daily diagnostic publication, whose calendar and observation times are separate. These locators and a newly saved Analysis, Matrix, Dossier or latest goal observation do not establish current source freshness. Use their exact retained readers for history and reproducibility. For `get_campaign_metrics`, always pass `project_id`, the exact **Daygrain** `publication_id`, `start` and `end`; select family and exact counter/goal arguments; the MCP derives Direct or Metrika from family. Configuration/Analysis IDs cannot substitute for Daygrain. Inspect further receipts only for a relevant gap or decision.

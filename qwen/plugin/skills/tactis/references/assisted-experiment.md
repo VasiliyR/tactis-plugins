@@ -2,6 +2,8 @@
 
 Use only when the user wants a prospective controlled comparison and has a real external unique-user allocation mechanism plus binary-user observations. Ordinary [change cards and native pre/post reviews](experiments-workflow.md) are simpler supported results. These tools save a design and conditional statistics; they neither allocate provider traffic nor create/launch campaigns.
 
+For an existing native Direct experiment, use the [actual variant observation path](experiments-workflow.md#existing-native-direct-experiment). Its Metrika site-visitor report is independent provider observation, not an assignment export: it cannot establish the randomization/no-overlap prerequisites below. New experiments cannot be created in Audience; Direct Pro UI setup may launch stopped campaigns and belongs to the already authorized launch/spending phase.
+
 ## Preparation and exact readback
 
 1. Recover offer, original question, event definition, account and relevant Work. From current configuration read the **existing** control/treatment campaign IDs; each arm has one to ten distinct IDs and the arms are disjoint. New imaginary campaign IDs cannot create arms. If a campaign must first be made, complete that independent [PAUSED Creator path](campaign-launch.md) under its authority. Existing campaigns still do not prove random allocation.

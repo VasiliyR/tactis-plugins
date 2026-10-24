@@ -10,6 +10,8 @@ metadata:
 
 Execute the selected task from the known project, offer, material and constraints. Use [session entry](references/session-entry.md) only for missing scope or a consequential business choice. Reuse facts and applicable choices across skills.
 
+For delegated work, choose a grounded working goal, metrics and approach and begin the useful work. A missing KPI needs no general agreement step; use a bounded measurement or learning goal when a business target is unknown. Keep your choice attributed to the agent and revise it when the user corrects the direction. A short question needs neither a project goal nor Work.
+
 For a capability question, answer directly; use [capabilities](references/capabilities-guide.md) only for missing product knowledge. Find or return an existing report, material or Work through [saved results](references/saved-results.md), starting with its known locator.
 
 | Requested result | Procedure |
