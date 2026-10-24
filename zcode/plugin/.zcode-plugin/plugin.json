@@ -17,5 +17,5 @@
   "mcpServers": "./.mcp.json",
   "name": "tactis",
   "skills": "./skills/",
-  "version": "1.24.30"
+  "version": "1.24.31"
 }

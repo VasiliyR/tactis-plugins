@@ -25,7 +25,7 @@ For actual creation, include the complete prepared settings in that same `create
 | Requested stage | Result to establish |
 | --- | --- |
 | Prepare material | Complete usable recommendation and copy, with unresolved conditions |
-| Create a campaign | A supported graph created PAUSED, with actual new IDs and per-object readback |
+| Create a campaign | A supported non-serving graph with actual new IDs and per-object readback: native `SUSPENDED` or exact `OFF` + `DRAFT` |
 | Moderate | The exact submitted objects and actual moderation/readiness state |
 | Start paid delivery | The authorized finite launch, actual serving state and agreed observation condition |
 
